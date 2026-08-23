@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2f6b50">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon-192.png">
+<title>Sonnenfenster</title>
+<style>
+:root{--green:#2f6b50;--dark:#26332d;--cream:#f5f1e8;--pale:#e7efe9;--muted:#68736d;--gold:#e4b94d;--red:#b54437}
+*{box-sizing:border-box} body{margin:0;background:var(--cream);color:var(--dark);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.app{max-width:520px;margin:auto;min-height:100vh;background:var(--cream);padding-bottom:82px}
+.hero{position:relative;height:300px;background:linear-gradient(160deg,#4d7967,#2f6b50);overflow:hidden}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.55),rgba(0,0,0,.05))}
+.hero img{width:100%;height:100%;object-fit:cover}
+.brand{position:absolute;z-index:2;left:22px;right:22px;bottom:22px;color:white}
+.kicker{font-size:11px;font-weight:800;letter-spacing:.14em}.brand h1{font-size:34px;margin:7px 0 2px}.brand p{margin:0;opacity:.9}
+.section{padding:20px}.section h2{font-size:20px;margin:0 0 14px}.section h3{margin:0 0 8px}
+.search{display:flex;gap:8px;background:white;border-radius:14px;padding:10px 12px;box-shadow:0 7px 25px rgba(0,0,0,.06)}
+.search input{border:0;outline:0;width:100%;font-size:15px}
+.chips{display:flex;gap:8px;overflow:auto;padding:0 20px 4px}.chip{white-space:nowrap;border:1px solid #d6ddd8;background:#fff;padding:9px 12px;border-radius:999px;font-size:12px;font-weight:700}
+.chip.active{background:var(--green);color:white;border-color:var(--green)}
+.cards{display:grid;gap:14px}.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.07);cursor:pointer}
+.card img{width:100%;height:150px;object-fit:cover}.card-body{padding:14px}.card-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.badge{font-size:10px;font-weight:900;letter-spacing:.06em;color:var(--green);background:var(--pale);padding:5px 7px;border-radius:7px}
+.muted{color:var(--muted);font-size:13px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.fact{font-size:12px;background:#f5f7f4;padding:8px 9px;border-radius:9px}
+.weather{display:inline-flex;align-items:center;gap:6px}.dot{width:9px;height:9px;border-radius:50%;display:inline-block}.gruen{background:#4b9b66}.gelb{background:#d9a928}.rot{background:#c8544d}
+.region-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.region{background:white;padding:13px;border-radius:14px;border:1px solid #e3e5df}.region b{display:block}.region small{color:var(--muted)}
+.map{background:#e4ebe4;border-radius:18px;height:300px;position:relative;overflow:hidden}.mountains{position:absolute;inset:0;opacity:.3;background:linear-gradient(140deg,transparent 45%,#8aaa97 46% 54%,transparent 55%),linear-gradient(35deg,transparent 50%,#759587 51% 58%,transparent 59%)}
+.pin{position:absolute;transform:translate(-50%,-50%);background:var(--green);color:white;border:3px solid white;border-radius:50%;width:38px;height:38px;display:grid;place-items:center;font-size:11px;font-weight:900;box-shadow:0 5px 12px rgba(0,0,0,.2);cursor:pointer}
+.nav{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:min(520px,100%);height:70px;background:white;border-top:1px solid #ddd;display:grid;grid-template-columns:repeat(4,1fr);z-index:9}
+.nav button{border:0;background:none;font-weight:800;color:var(--muted);font-size:11px}.nav button.active{color:var(--green)}
+.view{display:none}.view.active{display:block}
+.detail{position:fixed;z-index:20;inset:0;background:var(--cream);max-width:520px;margin:auto;overflow:auto;transform:translateY(100%);transition:.25s}.detail.open{transform:translateY(0)}
+.detail-hero{height:270px;position:relative}.detail-hero img{width:100%;height:100%;object-fit:cover}.back{position:absolute;top:18px;left:18px;border:0;border-radius:50%;width:42px;height:42px;background:rgba(255,255,255,.92);font-size:21px}
+.detail-content{padding:20px}.action-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btn{display:block;text-decoration:none;text-align:center;background:var(--green);color:white;border-radius:12px;padding:13px;font-weight:800}.btn.alt{background:white;color:var(--green);border:1px solid #cfd9d3}
+.callout{background:var(--pale);border-radius:14px;padding:15px;margin:14px 0}.star{border:0;background:none;font-size:24px;cursor:pointer}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+@media(min-width:521px){body{padding:25px 0}.app{border-radius:26px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.13)}.nav{bottom:18px;border-radius:20px;box-shadow:0 8px 25px rgba(0,0,0,.12);width:480px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <main id="home" class="view active">
+    <div class="hero"><img src="assets/gavarnie.jpg" alt=""><div class="brand"><div class="kicker">PROJEKT SONNENFENSTER</div><h1>Wo ist Sonne?</h1><p>Camping · Wandern · Hund · Wetterfenster</p></div></div>
+    <div class="section"><div class="search">🔎 <input id="search" placeholder="Region, Ort oder Camping suchen"></div></div>
+    <div class="chips"><button class="chip active" data-filter="all">Alle</button><button class="chip" data-filter="dog">🐾 Hund</button><button class="chip" data-filter="food">🍽 zu Fuss</button><button class="chip" data-filter="weather">☀ Wetterjoker</button></div>
+    <div class="section"><h2>Aktuelle Sonnenfenster</h2><div id="placeCards" class="cards"></div></div>
+  </main>
+
+  <main id="mapv" class="view">
+    <div class="section"><h2>Regionenkarte</h2><div class="map"><div class="mountains"></div>
+      <div class="pin" style="left:37%;top:39%" onclick="showRegion('02')">02</div>
+      <div class="pin" style="left:43%;top:48%" onclick="showRegion('03')">03</div>
+      <div class="pin" style="left:49%;top:52%" onclick="showRegion('04')">04</div>
+      <div class="pin" style="left:58%;top:50%" onclick="showRegion('05')">05</div>
+      <div class="pin" style="left:64%;top:47%" onclick="showRegion('06')">06</div>
+      <div class="pin" style="left:18%;top:78%" onclick="showRegion('12')">12</div>
+    </div><p class="muted">Prototyp: schematische Übersicht. Später ersetzen wir dies durch die echten Regionskarten mit allen Camping-Pins.</p></div>
+    <div class="section"><h2>Alle 14 Regionen</h2><div id="regionGrid" class="region-grid"></div></div>
+  </main>
+
+  <main id="fav" class="view"><div class="section"><h2>Meine Shortlist</h2><div id="favCards" class="cards"></div></div></main>
+
+  <main id="decision" class="view"><div class="section"><h2>Donnerstagabend</h2>
+    <div class="callout"><h3>Wo ist So–Mi das beste Sonnenfenster?</h3><p>In der fertigen App werden Wetter, Niederschlag, Wolkenbasis und Gewitterrisiko je Region verglichen. Der Prototyp zeigt bereits die Entscheidlogik.</p></div>
+    <div id="decisionCards" class="cards"></div>
+  </div></main>
+
+  <nav class="nav">
+    <button class="active" data-view="home">⌂<br>Start</button>
+    <button data-view="mapv">⌖<br>Karte</button>
+    <button data-view="fav">★<br>Favoriten</button>
+    <button data-view="decision">☀<br>Entscheid</button>
+  </nav>
+</div>
+
+<div id="detail" class="detail"><div id="detailInner"></div></div>
+
+<script>
+let DATA, currentFilter='all';
+const favs = new Set(JSON.parse(localStorage.getItem('sf_favs')||'[]'));
+
+async function load(){
+  DATA = await (await fetch('data.json')).json();
+  renderRegions(); renderPlaces(); renderFavs(); renderDecision();
+}
+function cardHTML(p){
+  const star=favs.has(p.id)?'★':'☆';
+  return `<article class="card" onclick="openDetail('${p.id}')">
+    <img src="${p.image}" alt="${p.name}">
+    <div class="card-body"><div class="card-top"><div><b>${p.name}</b><div class="muted">${p.camp}</div></div><span class="badge">${p.badge}</span></div>
+    <div class="facts"><div class="fact">🐾 ${p.dog}</div><div class="fact">🍽 ${p.food}</div><div class="fact">🚠 ${p.lift}</div><div class="fact weather"><span class="dot ${p.weather}"></span>${p.nights}</div></div></div>
+  </article>`;
+}
+function renderPlaces(){
+ let q=(document.querySelector('#search')?.value||'').toLowerCase();
+ let list=DATA.places.filter(p => (p.name+' '+p.camp+' '+p.country).toLowerCase().includes(q));
+ if(currentFilter==='dog') list=list.filter(p=>p.dog);
+ if(currentFilter==='food') list=list.filter(p=>p.food);
+ if(currentFilter==='weather') list=list.filter(p=>p.weather==='gruen');
+ document.querySelector('#placeCards').innerHTML=list.map(cardHTML).join('')||'<div class="empty">Kein Treffer</div>';
+}
+function renderRegions(){
+ document.querySelector('#regionGrid').innerHTML=DATA.regions.map(r=>`<div class="region" onclick="showRegion('${r.id}')"><b>${r.id} · ${r.name}</b><small>${r.status}</small></div>`).join('');
+}
+function showRegion(id){
+ document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));
+ document.querySelector('[data-view="home"]').classList.add('active');
+ document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));document.querySelector('#home').classList.add('active');
+ const reg=DATA.regions.find(r=>r.id===id);
+ document.querySelector('#search').value=reg?.name||'';
+ if(id==='12') document.querySelector('#search').value='';
+ renderPlaces();
+}
+function openDetail(id){
+ const p=DATA.places.find(x=>x.id===id);
+ document.querySelector('#detailInner').innerHTML=`<div class="detail-hero"><img src="${p.image}"><button class="back" onclick="closeDetail()">‹</button></div>
+ <div class="detail-content"><div class="card-top"><div><div class="kicker" style="color:var(--green)">REGION ${p.region}</div><h2>${p.name}</h2><div class="muted">${p.camp} · ${p.country}</div></div><button class="star" onclick="toggleFav('${p.id}',event)">${favs.has(p.id)?'★':'☆'}</button></div>
+ <div class="callout"><b>Warum gehört dieser Platz in den Führer?</b><p>${p.why}</p></div>
+ <h3>Tour des Tages</h3><p><b>${p.tour}</b><br>${p.tourInfo}</p>
+ <div class="facts"><div class="fact">🐾 ${p.dog}</div><div class="fact">🍽 ${p.food}</div><div class="fact">🚠 ${p.lift}</div><div class="fact">${p.nights}</div></div>
+ <div class="action-row" style="margin-top:16px"><a class="btn" href="${p.pdf}" target="_blank">Druckausgabe</a><a class="btn alt" href="${p.maps}" target="_blank">Google Maps</a></div>
+ </div>`;
+ document.querySelector('#detail').classList.add('open');
+}
+function closeDetail(){document.querySelector('#detail').classList.remove('open')}
+function toggleFav(id,e){ if(e)e.stopPropagation(); favs.has(id)?favs.delete(id):favs.add(id); localStorage.setItem('sf_favs',JSON.stringify([...favs])); renderFavs(); openDetail(id);}
+function renderFavs(){if(!DATA)return; let l=DATA.places.filter(p=>favs.has(p.id)); document.querySelector('#favCards').innerHTML=l.map(cardHTML).join('')||'<div class="empty">Noch keine Favoriten. Tippe bei einem Platz auf ☆.</div>'}
+function renderDecision(){document.querySelector('#decisionCards').innerHTML=DATA.places.map(p=>`<div class="card" onclick="openDetail('${p.id}')"><div class="card-body"><div class="card-top"><b>${p.name}</b><span class="weather"><span class="dot ${p.weather}"></span>${p.weather==='gruen'?'GRÜN':'GELB'}</span></div><p class="muted">${p.why}</p></div></div>`).join('')}
+document.addEventListener('click',e=>{
+ const b=e.target.closest('.nav button'); if(b){document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));document.querySelector('#'+b.dataset.view).classList.add('active'); if(b.dataset.view==='fav')renderFavs();}
+ const chip=e.target.closest('.chip'); if(chip){document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));chip.classList.add('active');currentFilter=chip.dataset.filter;renderPlaces();}
+});
+document.querySelector('#search').addEventListener('input',renderPlaces);
+if('serviceWorker' in navigator && location.protocol.startsWith('http')) navigator.serviceWorker.register('service-worker.js');
+load();
+</script>
+</body></html>

@@ -1,0 +1,133 @@
+{
+  "regions": [
+    {
+      "id": "01",
+      "name": "Aostatal / Nord-Piemont",
+      "status": "vorhanden"
+    },
+    {
+      "id": "02",
+      "name": "Wallis",
+      "status": "vorhanden"
+    },
+    {
+      "id": "03",
+      "name": "Tessin",
+      "status": "vorhanden"
+    },
+    {
+      "id": "04",
+      "name": "Südbünden / Engadin",
+      "status": "vorhanden"
+    },
+    {
+      "id": "05",
+      "name": "Trentino",
+      "status": "vorhanden"
+    },
+    {
+      "id": "06",
+      "name": "Dolomiten",
+      "status": "vorhanden"
+    },
+    {
+      "id": "07",
+      "name": "Nordbünden / Vorarlberg",
+      "status": "geplant"
+    },
+    {
+      "id": "08",
+      "name": "Tirol",
+      "status": "geplant"
+    },
+    {
+      "id": "09",
+      "name": "Slowenien",
+      "status": "geplant"
+    },
+    {
+      "id": "10",
+      "name": "Südpolen",
+      "status": "geplant"
+    },
+    {
+      "id": "11",
+      "name": "Französische Alpen",
+      "status": "geplant"
+    },
+    {
+      "id": "12",
+      "name": "Pyrenäen",
+      "status": "aktiv"
+    },
+    {
+      "id": "13",
+      "name": "Walsertal",
+      "status": "geplant"
+    },
+    {
+      "id": "14",
+      "name": "Ostalpen",
+      "status": "geplant"
+    }
+  ],
+  "places": [
+    {
+      "id": "luz",
+      "region": "12",
+      "name": "Luz-Saint-Sauveur",
+      "camp": "Camping Le Bastan",
+      "country": "Frankreich",
+      "image": "assets/gavarnie.jpg",
+      "badge": "FREIGEGEBEN",
+      "nights": "2–4 Nächte",
+      "dog": "Hund geeignet",
+      "food": "Zentrum ca. 500 m",
+      "lift": "Tourmalet / Region",
+      "weather": "gruen",
+      "why": "Sehr taktische Basis zwischen Gavarnie, Troumouse, Tourmalet und weiteren Tälern.",
+      "tour": "Cirque de Gavarnie",
+      "tourInfo": "Hôtellerie du Cirque als starke Basisvariante; mit Hund dort Wendepunkt einplanen.",
+      "pdf": "pdfs/01_Luz-Saint-Sauveur_Le-Bastan.pdf",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Camping+Le+Bastan+Esterre"
+    },
+    {
+      "id": "cauterets",
+      "region": "12",
+      "name": "Cauterets",
+      "camp": "Camping La Prairie",
+      "country": "Frankreich",
+      "image": "assets/lac_gaube.jpg",
+      "badge": "FREIGEGEBEN",
+      "nights": "2–4 Nächte",
+      "dog": "Hund mit Sonderregeln",
+      "food": "Zentrum ca. 600 m",
+      "lift": "Lys / Pont d'Espagne",
+      "weather": "gruen",
+      "why": "Camper stehen lassen: Ort, Thermen, Bus und Bergbahn sind bequem erreichbar.",
+      "tour": "Pont d'Espagne & Lac de Gaube",
+      "tourInfo": "Mit Hund im Sommer zum Lac de Gaube nur via Gondel + Sessellift.",
+      "pdf": "pdfs/02_Cauterets_Camping-La-Prairie.pdf",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Camping+La+Prairie+Cauterets"
+    },
+    {
+      "id": "torla",
+      "region": "12",
+      "name": "Torla-Ordesa",
+      "camp": "Camping Río Ara",
+      "country": "Spanien",
+      "image": "assets/ordesa_valley.jpg",
+      "badge": "SHORTLIST",
+      "nights": "2–4 Nächte",
+      "dog": "Bujaruelo stark mit Hund",
+      "food": "Torla zu Fuss",
+      "lift": "Bus nach Ordesa",
+      "weather": "gelb",
+      "why": "Nationalpark-Tor direkt vor der Haustür; Busanschluss und Wandereinstieg sehr praktisch.",
+      "tour": "Ordesa-Tal & Wasserfälle",
+      "tourInfo": "Bujaruelo als eigenständiger Hundetag einplanen.",
+      "pdf": "pdfs/03_Torla-Ordesa_Camping-Rio-Ara.pdf",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Camping+Rio+Ara+Torla"
+    }
+  ]
+}
