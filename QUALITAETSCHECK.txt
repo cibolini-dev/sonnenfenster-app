@@ -1,0 +1,6 @@
+V4.1 MUSTERREGION
+8/8 Plätze
+Jeder Platz: >=2 Bilder, >=4 Touren, Hund/Sunny, Essen, Schlechtwetter, Platzdetails, Links
+Regionskarte integriert
+Wetterfenster integriert
+Mobile Layout integriert

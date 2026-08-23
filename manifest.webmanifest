@@ -1,12 +1,11 @@
 {
-  "name": "Projekt Sonnenfenster",
+  "name": "Projekt Sonnenfenster V4.1",
   "short_name": "Sonnenfenster",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#eef5f4",
+  "background_color": "#f3f0e8",
   "theme_color": "#0b6267",
-  "description": "Camping-, Wander- und Wetterfenster-App für die Alpen und weitere Bergregionen.",
   "icons": [
     {
       "src": "icon-192.png",
