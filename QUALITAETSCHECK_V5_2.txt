@@ -1,0 +1,16 @@
+SONNENFENSTER APP V5.2 · QUALITÄTSCHECK
+
+Plätze: 81 / Regionen: 12
+Lokale Bildreferenzen geprüft: 181
+Externe Bildreferenzen (bestehende V4.2-Masterbilder): 28
+Grösster Foto-Unterordner: 27 Dateien
+Foto-Unterordner: dolomiten=17, fralpen=27, nordbuenden=18, pyrenaeen=17, slowenien=18, suedbuenden=12, suedpolen=9, tessin=15, tirol=13, trentino=11, wallis=24
+Alle 12 aktuellen Regionenkarten vorhanden; 4 gespeicherte Projektkarten + aktuelle V5.2-Karten.
+Gesamtkarte aktuell + frühere Projektkarte integriert.
+Neue Plätze seit V5.1: Espot / Camping Solau; Pont d’Arròs / Camping Verneda.
+Neue Region seit V5.1: keine; Bestand bleibt bei 12 Regionen.
+Besondere Höhepunkte bewusst selektiv als „Einmalig hier“ integriert.
+Service Worker lädt beim Installieren nur Kern-Dateien; Bilder werden bei Bedarf gecacht (verhindert zu grosse Erstinstallation).
+JavaScript Syntax: OK
+
+ERGEBNIS: FREIGABEFÄHIG

@@ -1,77 +1,113 @@
 {
-  "version": "5.1",
+  "version": "5.2",
   "regions": [
     {
       "id": "aostatal",
       "name": "Aostatal / Nordpiemont",
       "lat": 45.61,
-      "lon": 7.36
+      "lon": 7.36,
+      "number": 1,
+      "map_image": "assets/karten/aostatal.png",
+      "map_current": "assets/karten/aostatal_aktuell.svg"
     },
     {
       "id": "wallis",
       "name": "Wallis",
       "lat": 46.18,
-      "lon": 7.62
+      "lon": 7.62,
+      "number": 2,
+      "map_image": "assets/karten/wallis.png",
+      "map_current": "assets/karten/wallis_aktuell.svg"
     },
     {
       "id": "tessin",
       "name": "Tessin",
       "lat": 46.2,
-      "lon": 8.8
+      "lon": 8.8,
+      "number": 3,
+      "map_image": "assets/karten/tessin.png",
+      "map_current": "assets/karten/tessin_aktuell.svg"
     },
     {
       "id": "suedbuenden",
       "name": "Südbünden / Engadin",
       "lat": 46.49,
-      "lon": 9.9
+      "lon": 9.9,
+      "number": 4,
+      "map_current": "assets/karten/suedbuenden_aktuell.svg",
+      "map_image": "assets/karten/suedbuenden_aktuell.svg"
     },
     {
       "id": "trentino",
       "name": "Trentino",
       "lat": 46.15,
-      "lon": 10.95
+      "lon": 10.95,
+      "number": 5,
+      "map_current": "assets/karten/trentino_aktuell.svg",
+      "map_image": "assets/karten/trentino_aktuell.svg"
     },
     {
       "id": "dolomiten",
       "name": "Dolomiten / Südtirol",
       "lat": 46.55,
-      "lon": 11.9
+      "lon": 11.9,
+      "number": 6,
+      "map_image": "assets/karten/dolomiten.png",
+      "map_current": "assets/karten/dolomiten_aktuell.svg"
     },
     {
       "id": "nordbuenden",
       "name": "Nordbünden / Vorarlberg",
       "lat": 46.95,
-      "lon": 9.75
+      "lon": 9.75,
+      "number": 7,
+      "map_current": "assets/karten/nordbuenden_aktuell.svg",
+      "map_image": "assets/karten/nordbuenden_aktuell.svg"
     },
     {
       "id": "tirol",
       "name": "Tirol",
       "lat": 47.2,
-      "lon": 10.95
+      "lon": 10.95,
+      "number": 8,
+      "map_current": "assets/karten/tirol_aktuell.svg",
+      "map_image": "assets/karten/tirol_aktuell.svg"
     },
     {
       "id": "slowenien",
       "name": "Slowenien",
       "lat": 46.35,
-      "lon": 13.78
+      "lon": 13.78,
+      "number": 9,
+      "map_current": "assets/karten/slowenien_aktuell.svg",
+      "map_image": "assets/karten/slowenien_aktuell.svg"
     },
     {
       "id": "suedpolen",
       "name": "Südpolen / Tatra",
       "lat": 49.3,
-      "lon": 19.95
+      "lon": 19.95,
+      "number": 10,
+      "map_current": "assets/karten/suedpolen_aktuell.svg",
+      "map_image": "assets/karten/suedpolen_aktuell.svg"
     },
     {
       "id": "fralpen",
       "name": "Französische Alpen",
       "lat": 45.65,
-      "lon": 6.85
+      "lon": 6.85,
+      "number": 11,
+      "map_current": "assets/karten/fralpen_aktuell.svg",
+      "map_image": "assets/karten/fralpen_aktuell.svg"
     },
     {
       "id": "pyrenaeen",
       "name": "Pyrenäen",
       "lat": 42.85,
-      "lon": 0.05
+      "lon": 0.05,
+      "number": 12,
+      "map_current": "assets/karten/pyrenaeen_aktuell.svg",
+      "map_image": "assets/karten/pyrenaeen_aktuell.svg"
     }
   ],
   "places": [
@@ -153,7 +189,11 @@
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Gran Paradiso ohne Umparken",
+        "text": "Direkt vom Camping in eines der grossen Hochgebirgstäler des Gran Paradiso – der Hymer kann mehrere Tage stehen bleiben."
+      }
     },
     {
       "id": "lillaz",
@@ -724,11 +764,11 @@
       ],
       "images": [
         [
-          "assets/photos/p009_1.jpg",
+          "assets/fotos/wallis/p009_1.jpg",
           "p009 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p009_2.jpg",
+          "assets/fotos/wallis/p009_2.jpg",
           "p009 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -797,7 +837,7 @@
       ],
       "images": [
         [
-          "assets/photos/p010_1.jpg",
+          "assets/fotos/wallis/p010_1.jpg",
           "p010 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
@@ -862,15 +902,15 @@
       ],
       "images": [
         [
-          "assets/photos/p011_1.jpg",
+          "assets/fotos/wallis/p011_1.jpg",
           "p011 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p011_2.jpg",
+          "assets/fotos/wallis/p011_2.jpg",
           "p011 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p011_3.jpg",
+          "assets/fotos/wallis/p011_3.jpg",
           "p011 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -937,11 +977,11 @@
       ],
       "images": [
         [
-          "assets/photos/p012_1.jpg",
+          "assets/fotos/wallis/p012_1.jpg",
           "p012 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p012_2.jpg",
+          "assets/fotos/wallis/p012_2.jpg",
           "p012 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1002,11 +1042,11 @@
       ],
       "images": [
         [
-          "assets/photos/p013_1.jpg",
+          "assets/fotos/wallis/p013_1.jpg",
           "p013 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p013_2.jpg",
+          "assets/fotos/wallis/p013_2.jpg",
           "p013 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1070,15 +1110,15 @@
       ],
       "images": [
         [
-          "assets/photos/p014_1.jpg",
+          "assets/fotos/wallis/p014_1.jpg",
           "p014 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p014_2.jpg",
+          "assets/fotos/wallis/p014_2.jpg",
           "p014 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p014_3.jpg",
+          "assets/fotos/wallis/p014_3.jpg",
           "p014 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1142,15 +1182,15 @@
       ],
       "images": [
         [
-          "assets/photos/p015_1.jpg",
+          "assets/fotos/wallis/p015_1.jpg",
           "p015 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p015_2.jpg",
+          "assets/fotos/wallis/p015_2.jpg",
           "p015 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p015_3.jpg",
+          "assets/fotos/wallis/p015_3.jpg",
           "p015 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1216,22 +1256,26 @@
       ],
       "images": [
         [
-          "assets/photos/p016_1.jpg",
+          "assets/fotos/wallis/p016_1.jpg",
           "p016 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p016_2.jpg",
+          "assets/fotos/wallis/p016_2.jpg",
           "p016 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p016_3.jpg",
+          "assets/fotos/wallis/p016_3.jpg",
           "p016 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Simplonpass_MASTER_VALNONTEY.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Stockalperweg auf 2’000 Metern",
+        "text": "Historische Passroute, Hochmoor und Bergseen beginnen praktisch an der Passhöhe."
+      }
     },
     {
       "id": "p017",
@@ -1285,15 +1329,15 @@
       ],
       "images": [
         [
-          "assets/photos/p017_1.jpg",
+          "assets/fotos/wallis/p017_1.jpg",
           "p017 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p017_2.jpg",
+          "assets/fotos/wallis/p017_2.jpg",
           "p017 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p017_3.jpg",
+          "assets/fotos/wallis/p017_3.jpg",
           "p017 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1357,11 +1401,11 @@
       ],
       "images": [
         [
-          "assets/photos/p018_1.jpg",
+          "assets/fotos/wallis/p018_1.jpg",
           "p018 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p018_2.jpg",
+          "assets/fotos/wallis/p018_2.jpg",
           "p018 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1422,11 +1466,11 @@
       ],
       "images": [
         [
-          "assets/photos/p019_1.jpg",
+          "assets/fotos/tessin/p019_1.jpg",
           "p019 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p019_2.jpg",
+          "assets/fotos/tessin/p019_2.jpg",
           "p019 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1487,15 +1531,15 @@
       ],
       "images": [
         [
-          "assets/photos/p020_1.jpg",
+          "assets/fotos/tessin/p020_1.jpg",
           "p020 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p020_2.jpg",
+          "assets/fotos/tessin/p020_2.jpg",
           "p020 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p020_3.jpg",
+          "assets/fotos/tessin/p020_3.jpg",
           "p020 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1556,11 +1600,11 @@
       ],
       "images": [
         [
-          "assets/photos/p021_1.jpg",
+          "assets/fotos/tessin/p021_1.jpg",
           "p021 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p021_2.jpg",
+          "assets/fotos/tessin/p021_2.jpg",
           "p021 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1625,11 +1669,11 @@
       ],
       "images": [
         [
-          "assets/photos/p022_1.jpg",
+          "assets/fotos/tessin/p022_1.jpg",
           "p022 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p022_2.jpg",
+          "assets/fotos/tessin/p022_2.jpg",
           "p022 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1694,22 +1738,26 @@
       ],
       "images": [
         [
-          "assets/photos/p023_1.jpg",
+          "assets/fotos/tessin/p023_1.jpg",
           "p023 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p023_2.jpg",
+          "assets/fotos/tessin/p023_2.jpg",
           "p023 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p023_3.jpg",
+          "assets/fotos/tessin/p023_3.jpg",
           "p023 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Olivone_Bleniotal_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Luzzone und Greina als Doppel-Joker",
+        "text": "Ein Tal verbindet spektakuläre Staumauer, Greina-Hochebene und Adula – ungewöhnlich viel Hochgebirge aus einer Basis."
+      }
     },
     {
       "id": "p024",
@@ -1763,15 +1811,15 @@
       ],
       "images": [
         [
-          "assets/photos/p024_1.jpg",
+          "assets/fotos/tessin/p024_1.jpg",
           "p024 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p024_2.jpg",
+          "assets/fotos/tessin/p024_2.jpg",
           "p024 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p024_3.jpg",
+          "assets/fotos/tessin/p024_3.jpg",
           "p024 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1907,15 +1955,15 @@
       ],
       "images": [
         [
-          "assets/photos/p026_1.jpg",
+          "assets/fotos/suedbuenden/p026_1.jpg",
           "p026 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p026_2.jpg",
+          "assets/fotos/suedbuenden/p026_2.jpg",
           "p026 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p026_3.jpg",
+          "assets/fotos/suedbuenden/p026_3.jpg",
           "p026 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -1981,11 +2029,11 @@
       ],
       "images": [
         [
-          "assets/photos/p027_1.jpg",
+          "assets/fotos/suedbuenden/p027_1.jpg",
           "p027 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p027_2.jpg",
+          "assets/fotos/suedbuenden/p027_2.jpg",
           "p027 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2051,22 +2099,26 @@
       ],
       "images": [
         [
-          "assets/photos/p028_1.jpg",
+          "assets/fotos/suedbuenden/p028_1.jpg",
           "p028 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p028_2.jpg",
+          "assets/fotos/suedbuenden/p028_2.jpg",
           "p028 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p028_3.jpg",
+          "assets/fotos/suedbuenden/p028_3.jpg",
           "p028 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": null,
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "UNESCO-Kloster & Val Mora",
+        "text": "Romanische Kultur und eine der stillsten Hochflächen Graubündens in derselben Basis."
+      }
     },
     {
       "id": "p029",
@@ -2131,11 +2183,11 @@
       ],
       "images": [
         [
-          "assets/photos/p029_1.jpg",
+          "assets/fotos/suedbuenden/p029_1.jpg",
           "p029 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p029_2.jpg",
+          "assets/fotos/suedbuenden/p029_2.jpg",
           "p029 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2207,18 +2259,22 @@
       ],
       "images": [
         [
-          "assets/photos/p030_1.jpg",
+          "assets/fotos/suedbuenden/p030_1.jpg",
           "p030 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p030_2.jpg",
+          "assets/fotos/suedbuenden/p030_2.jpg",
           "p030 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": null,
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Schweizerischer Nationalpark",
+        "text": "Die streng geschützte Wildnis ist das eigentliche Programm. Wichtig: Sunny darf nicht in den Nationalpark – deshalb klare Mensch-/Hund-Trennung."
+      }
     },
     {
       "id": "p031",
@@ -2275,15 +2331,15 @@
       ],
       "images": [
         [
-          "assets/photos/p031_1.jpg",
+          "assets/fotos/nordbuenden/p031_1.jpg",
           "p031 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p031_2.jpg",
+          "assets/fotos/nordbuenden/p031_2.jpg",
           "p031 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p031_3.jpg",
+          "assets/fotos/nordbuenden/p031_3.jpg",
           "p031 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2355,22 +2411,26 @@
       ],
       "images": [
         [
-          "assets/photos/p032_1.jpg",
+          "assets/fotos/nordbuenden/p032_1.jpg",
           "p032 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p032_2.jpg",
+          "assets/fotos/nordbuenden/p032_2.jpg",
           "p032 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p032_3.jpg",
+          "assets/fotos/nordbuenden/p032_3.jpg",
           "p032 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Davos_Glaris_Rinerhorn_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Neuer Wasserkraft-Erlebnispfad 2026",
+        "text": "Seit August 2026 verbindet ein neuer Themenweg Bergbahn, Nüllisee, Wasserspiel und Turbinenhaus."
+      }
     },
     {
       "id": "p033",
@@ -2426,15 +2486,15 @@
       ],
       "images": [
         [
-          "assets/photos/p033_1.jpg",
+          "assets/fotos/nordbuenden/p033_1.jpg",
           "p033 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p033_2.jpg",
+          "assets/fotos/nordbuenden/p033_2.jpg",
           "p033 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p033_3.jpg",
+          "assets/fotos/nordbuenden/p033_3.jpg",
           "p033 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2495,15 +2555,15 @@
       ],
       "images": [
         [
-          "assets/photos/p034_1.jpg",
+          "assets/fotos/nordbuenden/p034_1.jpg",
           "p034 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p034_2.jpg",
+          "assets/fotos/nordbuenden/p034_2.jpg",
           "p034 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p034_3.jpg",
+          "assets/fotos/nordbuenden/p034_3.jpg",
           "p034 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2564,15 +2624,15 @@
       ],
       "images": [
         [
-          "assets/photos/p035_1.jpg",
+          "assets/fotos/nordbuenden/p035_1.jpg",
           "p035 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p035_2.jpg",
+          "assets/fotos/nordbuenden/p035_2.jpg",
           "p035 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p035_3.jpg",
+          "assets/fotos/nordbuenden/p035_3.jpg",
           "p035 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2635,15 +2695,15 @@
       ],
       "images": [
         [
-          "assets/photos/p036_1.jpg",
+          "assets/fotos/nordbuenden/p036_1.jpg",
           "p036 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p036_2.jpg",
+          "assets/fotos/nordbuenden/p036_2.jpg",
           "p036 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p036_3.jpg",
+          "assets/fotos/nordbuenden/p036_3.jpg",
           "p036 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2780,7 +2840,7 @@
       ],
       "images": [
         [
-          "assets/photos/p038_1.jpg",
+          "assets/fotos/trentino/p038_1.jpg",
           "p038 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
@@ -2845,7 +2905,7 @@
       ],
       "images": [
         [
-          "assets/photos/p039_1.jpg",
+          "assets/fotos/trentino/p039_1.jpg",
           "p039 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
@@ -2856,7 +2916,11 @@
       "links": [],
       "source_pdf": "Sonnenfenster_Molveno_Brentadolomiten_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Seeufer trifft Brenta",
+        "text": "Morgens ernster Brenta-Bergtag, abends direkt ans Wasser – diese Kombination ist im Führer fast einmalig."
+      }
     },
     {
       "id": "p040",
@@ -2920,11 +2984,11 @@
       ],
       "images": [
         [
-          "assets/photos/p040_1.jpg",
+          "assets/fotos/trentino/p040_1.jpg",
           "p040 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p040_2.jpg",
+          "assets/fotos/trentino/p040_2.jpg",
           "p040 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -2996,15 +3060,15 @@
       ],
       "images": [
         [
-          "assets/photos/p041_1.jpg",
+          "assets/fotos/trentino/p041_1.jpg",
           "p041 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p041_2.jpg",
+          "assets/fotos/trentino/p041_2.jpg",
           "p041 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p041_3.jpg",
+          "assets/fotos/trentino/p041_3.jpg",
           "p041 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3065,11 +3129,11 @@
       ],
       "images": [
         [
-          "assets/photos/p042_1.jpg",
+          "assets/fotos/trentino/p042_1.jpg",
           "p042 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p042_2.jpg",
+          "assets/fotos/trentino/p042_2.jpg",
           "p042 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3141,11 +3205,11 @@
       ],
       "images": [
         [
-          "assets/photos/p043_1.jpg",
+          "assets/fotos/trentino/p043_1.jpg",
           "p043 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p043_2.jpg",
+          "assets/fotos/trentino/p043_2.jpg",
           "p043 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3217,7 +3281,7 @@
       ],
       "images": [
         [
-          "assets/photos/p044_1.jpg",
+          "assets/fotos/dolomiten/p044_1.jpg",
           "p044 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
@@ -3293,11 +3357,11 @@
       ],
       "images": [
         [
-          "assets/photos/p045_1.jpg",
+          "assets/fotos/dolomiten/p045_1.jpg",
           "p045 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p045_2.jpg",
+          "assets/fotos/dolomiten/p045_2.jpg",
           "p045 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3369,15 +3433,15 @@
       ],
       "images": [
         [
-          "assets/photos/p046_1.jpg",
+          "assets/fotos/dolomiten/p046_1.jpg",
           "p046 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p046_2.jpg",
+          "assets/fotos/dolomiten/p046_2.jpg",
           "p046 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p046_3.jpg",
+          "assets/fotos/dolomiten/p046_3.jpg",
           "p046 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3438,15 +3502,15 @@
       ],
       "images": [
         [
-          "assets/photos/p047_1.jpg",
+          "assets/fotos/dolomiten/p047_1.jpg",
           "p047 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p047_2.jpg",
+          "assets/fotos/dolomiten/p047_2.jpg",
           "p047 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p047_3.jpg",
+          "assets/fotos/dolomiten/p047_3.jpg",
           "p047 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3507,18 +3571,22 @@
       ],
       "images": [
         [
-          "assets/photos/p048_1.jpg",
+          "assets/fotos/dolomiten/p048_1.jpg",
           "p048 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p048_2.jpg",
+          "assets/fotos/dolomiten/p048_2.jpg",
           "p048 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Sexten_Drei_Zinnen_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Drei Zinnen + echter Hundekomfort",
+        "text": "Premiumcamping mit Hundedusche/Dogsitting und gleichzeitig Zugang zu einem der ikonischsten Dolomitenreviere."
+      }
     },
     {
       "id": "p049",
@@ -3577,15 +3645,15 @@
       ],
       "images": [
         [
-          "assets/photos/p049_1.jpg",
+          "assets/fotos/dolomiten/p049_1.jpg",
           "p049 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p049_2.jpg",
+          "assets/fotos/dolomiten/p049_2.jpg",
           "p049 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p049_3.jpg",
+          "assets/fotos/dolomiten/p049_3.jpg",
           "p049 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3652,15 +3720,15 @@
       ],
       "images": [
         [
-          "assets/photos/p050_1.jpg",
+          "assets/fotos/dolomiten/p050_1.jpg",
           "p050 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p050_2.jpg",
+          "assets/fotos/dolomiten/p050_2.jpg",
           "p050 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p050_3.jpg",
+          "assets/fotos/dolomiten/p050_3.jpg",
           "p050 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3732,7 +3800,7 @@
       ],
       "images": [
         [
-          "assets/photos/p051_1.jpg",
+          "assets/fotos/tirol/p051_1.jpg",
           "p051 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
@@ -3808,15 +3876,15 @@
       ],
       "images": [
         [
-          "assets/photos/p052_1.jpg",
+          "assets/fotos/tirol/p052_1.jpg",
           "p052 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p052_2.jpg",
+          "assets/fotos/tirol/p052_2.jpg",
           "p052 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p052_3.jpg",
+          "assets/fotos/tirol/p052_3.jpg",
           "p052 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3888,15 +3956,15 @@
       ],
       "images": [
         [
-          "assets/photos/p053_1.jpg",
+          "assets/fotos/tirol/p053_1.jpg",
           "p053 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p053_2.jpg",
+          "assets/fotos/tirol/p053_2.jpg",
           "p053 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p053_3.jpg",
+          "assets/fotos/tirol/p053_3.jpg",
           "p053 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -3969,22 +4037,26 @@
       ],
       "images": [
         [
-          "assets/photos/p054_1.jpg",
+          "assets/fotos/tirol/p054_1.jpg",
           "p054 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p054_2.jpg",
+          "assets/fotos/tirol/p054_2.jpg",
           "p054 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p054_3.jpg",
+          "assets/fotos/tirol/p054_3.jpg",
           "p054 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Scharnitz_Karwendel_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Am Ursprung der Isar",
+        "text": "Vom Camping in jene Karwendeltäler, in denen die junge Isar entsteht – ganz ohne Bergbahn."
+      }
     },
     {
       "id": "p055",
@@ -4038,15 +4110,15 @@
       ],
       "images": [
         [
-          "assets/photos/p055_1.jpg",
+          "assets/fotos/tirol/p055_1.jpg",
           "p055 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p055_2.jpg",
+          "assets/fotos/tirol/p055_2.jpg",
           "p055 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p055_3.jpg",
+          "assets/fotos/tirol/p055_3.jpg",
           "p055 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4194,15 +4266,15 @@
       ],
       "images": [
         [
-          "assets/photos/p057_1.jpg",
+          "assets/fotos/slowenien/p057_1.jpg",
           "p057 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p057_2.jpg",
+          "assets/fotos/slowenien/p057_2.jpg",
           "p057 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p057_3.jpg",
+          "assets/fotos/slowenien/p057_3.jpg",
           "p057 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4263,15 +4335,15 @@
       ],
       "images": [
         [
-          "assets/photos/p058_1.jpg",
+          "assets/fotos/slowenien/p058_1.jpg",
           "p058 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p058_2.jpg",
+          "assets/fotos/slowenien/p058_2.jpg",
           "p058 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p058_3.jpg",
+          "assets/fotos/slowenien/p058_3.jpg",
           "p058 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4343,15 +4415,15 @@
       ],
       "images": [
         [
-          "assets/photos/p059_1.jpg",
+          "assets/fotos/slowenien/p059_1.jpg",
           "p059 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p059_2.jpg",
+          "assets/fotos/slowenien/p059_2.jpg",
           "p059 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p059_3.jpg",
+          "assets/fotos/slowenien/p059_3.jpg",
           "p059 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4412,22 +4484,26 @@
       ],
       "images": [
         [
-          "assets/photos/p060_1.jpg",
+          "assets/fotos/slowenien/p060_1.jpg",
           "p060 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p060_2.jpg",
+          "assets/fotos/slowenien/p060_2.jpg",
           "p060 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p060_3.jpg",
+          "assets/fotos/slowenien/p060_3.jpg",
           "p060 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Kobarid_Kozjak_Camp_Koren_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Kozjak-Wasserfall",
+        "text": "Ein fast höhlenartig eingerahmter Wasserfall ist der fotografische Gegenpol zu den offenen Soča-Landschaften."
+      }
     },
     {
       "id": "p061",
@@ -4481,15 +4557,15 @@
       ],
       "images": [
         [
-          "assets/photos/p061_1.jpg",
+          "assets/fotos/slowenien/p061_1.jpg",
           "p061 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p061_2.jpg",
+          "assets/fotos/slowenien/p061_2.jpg",
           "p061 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p061_3.jpg",
+          "assets/fotos/slowenien/p061_3.jpg",
           "p061 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4552,15 +4628,15 @@
       ],
       "images": [
         [
-          "assets/photos/p062_1.jpg",
+          "assets/fotos/slowenien/p062_1.jpg",
           "p062 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p062_2.jpg",
+          "assets/fotos/slowenien/p062_2.jpg",
           "p062 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p062_3.jpg",
+          "assets/fotos/slowenien/p062_3.jpg",
           "p062 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4624,15 +4700,15 @@
       ],
       "images": [
         [
-          "assets/photos/p063_1.jpg",
+          "assets/fotos/suedpolen/p063_1.jpg",
           "p063 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p063_2.jpg",
+          "assets/fotos/suedpolen/p063_2.jpg",
           "p063 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p063_3.jpg",
+          "assets/fotos/suedpolen/p063_3.jpg",
           "p063 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4705,15 +4781,15 @@
       ],
       "images": [
         [
-          "assets/photos/p064_1.jpg",
+          "assets/fotos/suedpolen/p064_1.jpg",
           "p064 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p064_2.jpg",
+          "assets/fotos/suedpolen/p064_2.jpg",
           "p064 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p064_3.jpg",
+          "assets/fotos/suedpolen/p064_3.jpg",
           "p064 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4776,15 +4852,15 @@
       ],
       "images": [
         [
-          "assets/photos/p065_1.jpg",
+          "assets/fotos/suedpolen/p065_1.jpg",
           "p065 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p065_2.jpg",
+          "assets/fotos/suedpolen/p065_2.jpg",
           "p065 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p065_3.jpg",
+          "assets/fotos/suedpolen/p065_3.jpg",
           "p065 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -4855,7 +4931,7 @@
       ],
       "images": [
         [
-          "assets/photos/p066_1.jpg",
+          "assets/fotos/fralpen/p066_1.jpg",
           "p066 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
@@ -4931,15 +5007,15 @@
       ],
       "images": [
         [
-          "assets/photos/p067_1.jpg",
+          "assets/fotos/fralpen/p067_1.jpg",
           "p067 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p067_2.jpg",
+          "assets/fotos/fralpen/p067_2.jpg",
           "p067 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p067_3.jpg",
+          "assets/fotos/fralpen/p067_3.jpg",
           "p067 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5011,11 +5087,11 @@
       ],
       "images": [
         [
-          "assets/photos/p068_1.jpg",
+          "assets/fotos/fralpen/p068_1.jpg",
           "p068 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p068_2.jpg",
+          "assets/fotos/fralpen/p068_2.jpg",
           "p068 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5079,15 +5155,15 @@
       ],
       "images": [
         [
-          "assets/photos/p069_1.jpg",
+          "assets/fotos/fralpen/p069_1.jpg",
           "p069 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p069_2.jpg",
+          "assets/fotos/fralpen/p069_2.jpg",
           "p069 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p069_3.jpg",
+          "assets/fotos/fralpen/p069_3.jpg",
           "p069 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5159,22 +5235,26 @@
       ],
       "images": [
         [
-          "assets/photos/p070_1.jpg",
+          "assets/fotos/fralpen/p070_1.jpg",
           "p070 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p070_2.jpg",
+          "assets/fotos/fralpen/p070_2.jpg",
           "p070 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p070_3.jpg",
+          "assets/fotos/fralpen/p070_3.jpg",
           "p070 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
       "links": [],
       "source_pdf": "Sonnenfenster_Vallouise_Huttopia_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Maison du Parc mit Duftstationen",
+        "text": "Das Nationalparkhaus erklärt die Écrins mit Klang, Tastmodellen, Filmen und sogar Düften – ungewöhnlich stark bei Regen."
+      }
     },
     {
       "id": "p071",
@@ -5238,15 +5318,15 @@
       ],
       "images": [
         [
-          "assets/photos/p071_1.jpg",
+          "assets/fotos/pyrenaeen/p071_1.jpg",
           "p071 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p071_2.jpg",
+          "assets/fotos/pyrenaeen/p071_2.jpg",
           "p071 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p071_3.jpg",
+          "assets/fotos/pyrenaeen/p071_3.jpg",
           "p071 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5318,11 +5398,11 @@
       ],
       "images": [
         [
-          "assets/photos/p072_1.jpg",
+          "assets/fotos/pyrenaeen/p072_1.jpg",
           "p072 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p072_2.jpg",
+          "assets/fotos/pyrenaeen/p072_2.jpg",
           "p072 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5385,15 +5465,15 @@
       ],
       "images": [
         [
-          "assets/photos/p073_1.jpg",
+          "assets/fotos/pyrenaeen/p073_1.jpg",
           "p073 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p073_2.jpg",
+          "assets/fotos/pyrenaeen/p073_2.jpg",
           "p073 · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/p073_3.jpg",
+          "assets/fotos/pyrenaeen/p073_3.jpg",
           "p073 · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5461,15 +5541,15 @@
       "highlights": [],
       "images": [
         [
-          "assets/photos/new_samoens_1.jpg",
+          "assets/fotos/fralpen/new_samoens_1.jpg",
           "new_samoens · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_samoens_2.jpg",
+          "assets/fotos/fralpen/new_samoens_2.jpg",
           "new_samoens · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_samoens_3.jpg",
+          "assets/fotos/fralpen/new_samoens_3.jpg",
           "new_samoens · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5537,15 +5617,15 @@
       "highlights": [],
       "images": [
         [
-          "assets/photos/new_grandbornand_1.jpg",
+          "assets/fotos/fralpen/new_grandbornand_1.jpg",
           "new_grandbornand · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_grandbornand_2.jpg",
+          "assets/fotos/fralpen/new_grandbornand_2.jpg",
           "new_grandbornand · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_grandbornand_3.jpg",
+          "assets/fotos/fralpen/new_grandbornand_3.jpg",
           "new_grandbornand · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5613,15 +5693,15 @@
       "highlights": [],
       "images": [
         [
-          "assets/photos/new_barcelonnette_1.jpg",
+          "assets/fotos/fralpen/new_barcelonnette_1.jpg",
           "new_barcelonnette · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_barcelonnette_2.jpg",
+          "assets/fotos/fralpen/new_barcelonnette_2.jpg",
           "new_barcelonnette · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_barcelonnette_3.jpg",
+          "assets/fotos/fralpen/new_barcelonnette_3.jpg",
           "new_barcelonnette · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5689,15 +5769,15 @@
       "highlights": [],
       "images": [
         [
-          "assets/photos/new_castellane_1.jpg",
+          "assets/fotos/fralpen/new_castellane_1.jpg",
           "new_castellane · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_castellane_2.jpg",
+          "assets/fotos/fralpen/new_castellane_2.jpg",
           "new_castellane · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_castellane_3.jpg",
+          "assets/fotos/fralpen/new_castellane_3.jpg",
           "new_castellane · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5765,15 +5845,15 @@
       "highlights": [],
       "images": [
         [
-          "assets/photos/new_colmars_1.jpg",
+          "assets/fotos/fralpen/new_colmars_1.jpg",
           "new_colmars · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_colmars_2.jpg",
+          "assets/fotos/fralpen/new_colmars_2.jpg",
           "new_colmars · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/new_colmars_3.jpg",
+          "assets/fotos/fralpen/new_colmars_3.jpg",
           "new_colmars · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5852,15 +5932,15 @@
       ],
       "images": [
         [
-          "assets/photos/benasque-aneto_1.jpg",
+          "assets/fotos/pyrenaeen/benasque-aneto_1.jpg",
           "benasque-aneto · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/benasque-aneto_2.jpg",
+          "assets/fotos/pyrenaeen/benasque-aneto_2.jpg",
           "benasque-aneto · Foto aus freigegebenem Sonnenfenster-Master"
         ],
         [
-          "assets/photos/benasque-aneto_3.jpg",
+          "assets/fotos/pyrenaeen/benasque-aneto_3.jpg",
           "benasque-aneto · Foto aus freigegebenem Sonnenfenster-Master"
         ]
       ],
@@ -5872,8 +5952,189 @@
       ],
       "source_pdf": "Sonnenfenster_Benasque_Camping_Aneto_FREIGEGEBEN.pdf",
       "quality": "V5.1 · vollständige App-Struktur mit Bildern",
-      "master_complete": true
+      "master_complete": true,
+      "special": {
+        "title": "Forau de Aigualluts",
+        "text": "Aneto-Schmelzwasser verschwindet im Karst und wechselt unterirdisch vom Mittelmeer- ins Atlantik-Einzugsgebiet."
+      }
+    },
+    {
+      "id": "p080",
+      "region": "pyrenaeen",
+      "region_name": "Pyrenäen",
+      "place": "Espot / Sant Maurici",
+      "camping": "Camping Solau",
+      "height": "ca. 1’300 m",
+      "nights": "2–4",
+      "why": "Nur zehn ruhige Parzellen, Espot zu Fuss und der Nationalpark praktisch vor der Tür. Kurze Sunny-Wege und grosse Seentage lassen sich sauber trennen.",
+      "camp": {
+        "Parzellen": "nur 10 grosszügige Plätze · Grünfläche mit Bäumen",
+        "Service": "Strom · Frischwasserfüllung · Schwarzwasser · Warmduschen · WLAN",
+        "Ankunft": "12:00–22:00 · Abreise bis 13:00",
+        "Wichtig": "Für 6-m-Hymer Rangierraum, Schatten und Stromdistanz vorab bestätigen"
+      },
+      "dog": {
+        "rating": "gut mit Einschränkungen",
+        "text": "Auf dem Camping angeleint. Im Nationalpark permanent Leine, kein Baden; der Sommer-Parkbus nimmt keine Tiere mit. 4×4-Hundetransport vorab bestätigen."
+      },
+      "tours": [
+        {
+          "name": "Parkrand ab Camping",
+          "level": "leicht",
+          "detail": "30–60 Min. schattiger unterer Weg · jederzeit wenden",
+          "sunny": "sehr gut"
+        },
+        {
+          "name": "Espot Dorf- und Flussrunde",
+          "level": "leicht",
+          "detail": "Kurze Gassen- und Flussrunde",
+          "sunny": "gut"
+        },
+        {
+          "name": "Prat de Pierró",
+          "level": "kurz",
+          "detail": "Nur bei kühlem Boden und offenem Zugang",
+          "sunny": "bedingt"
+        },
+        {
+          "name": "Sant Maurici am See",
+          "level": "bedingt",
+          "detail": "Nur wenn 4×4-Hundetransport bestätigt",
+          "sunny": "bedingt"
+        },
+        {
+          "name": "Sant Maurici – Ratera",
+          "level": "mittel",
+          "detail": "Klassischer Seentag mit Wasserfall und Els-Encantats-Blick",
+          "sunny": "Roman solo"
+        },
+        {
+          "name": "Amitges-Hochroute",
+          "level": "lang",
+          "detail": "Langer alpiner Tag über mehrere Seen",
+          "sunny": "Roman solo"
+        }
+      ],
+      "food": "La Llúpia ca. 5–10 Min. zu Fuss: Bergküche mit Escudella, Pilz-Cannelloni, Wildschweingulasch und Grillfleisch. Öffnung/Reservierung und Sunny-Terrasse am selben Tag klären.",
+      "bad": "Casa del Parc Nacional d’Espot: Ausstellung, Filmraum, Beratung und Shop. Alternative bei Dauerregen: Ecomuseu Els Pastors in Llessui.",
+      "highlights": [
+        "Estany de Sant Maurici",
+        "Els Encantats",
+        "Estany de Ratera",
+        "Amitges"
+      ],
+      "images": [
+        [
+          "assets/fotos/pyrenaeen/p080_espot_1.jpg",
+          "Camping Solau / Espot"
+        ],
+        [
+          "assets/fotos/pyrenaeen/p080_espot_5.jpg",
+          "Els Encantats / Sant Maurici"
+        ],
+        [
+          "assets/fotos/pyrenaeen/p080_espot_6.jpg",
+          "Hochgebirge bei Amitges"
+        ]
+      ],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Espot_Camping_Solau_FREIGEGEBEN.pdf",
+      "quality": "V5.2-Standard vollständig",
+      "master_complete": true,
+      "special": {
+        "title": "Els Encantats im Sant-Maurici-See",
+        "text": "Die Granitzacken spiegeln sich im See; der Bergtag lässt sich vom kurzen Seeufer bis zur Amitges-Hochroute modular bauen."
+      }
+    },
+    {
+      "id": "p081",
+      "region": "pyrenaeen",
+      "region_name": "Pyrenäen",
+      "place": "Pont d’Arròs / Verneda",
+      "camping": "Verneda Camping Mountain Resort",
+      "height": "ca. 730 m",
+      "nights": "2–4",
+      "why": "Flache Grasparzellen für den Hymer, tiefer Baumschatten für Sunny, Camin Reiau direkt am Platz und aranesische Küche ohne Fussweg.",
+      "camp": {
+        "PLUS-Parzelle": "80–95 m² · flacher Naturrasen · grosse Wohnmobile",
+        "Strom": "5 A · 2026 offiziell 9,60 € / Nacht",
+        "Service": "Warmwasser 24 h · Trinkwasser · Wasch/Trocken · WLAN · Minimarkt",
+        "Wunschplatz": "tiefer Nachmittagsschatten · Abstand zur N-230 und Animation"
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hunde gegen Zuschlag willkommen, angeleint und nie allein. Pool tabu. Direkter Camin Reiau und Garona-Uferweg sind starke kurze Optionen."
+      },
+      "tours": [
+        {
+          "name": "Camin Reiau ab Camping",
+          "level": "leicht",
+          "detail": "30–60 Min. schattiger Hin-und-zurück-Weg",
+          "sunny": "sehr gut"
+        },
+        {
+          "name": "Garona-Uferweg",
+          "level": "leicht",
+          "detail": "Flacher Morgen-/Abendweg",
+          "sunny": "sehr gut"
+        },
+        {
+          "name": "Bassa d’Oles",
+          "level": "kurz",
+          "detail": "2,3 km · 50 Min. · +75 m",
+          "sunny": "bedingt"
+        },
+        {
+          "name": "Artiga de Lin / Uelhs",
+          "level": "leicht",
+          "detail": "2,5 km · 1 Std. · +90 m · Sommer-Zügle",
+          "sunny": "bedingt"
+        },
+        {
+          "name": "Saut deth Pish",
+          "level": "leicht–mittel",
+          "detail": "3 km · 1:20 Std. · +120 m",
+          "sunny": "möglich"
+        },
+        {
+          "name": "Aigües Tòrtes de Colomèrs",
+          "level": "mittel",
+          "detail": "7,8 km · 3 Std. · +200 m",
+          "sunny": "Roman solo"
+        }
+      ],
+      "food": "Restaurant Verneda direkt am Camping: aranesische Gerichte, Grill, Tagesmenü, Pizza und lokale Produkte. Nach Olha Aranesa fragen; Sunny-Tisch auf der Terrasse explizit anfragen.",
+      "bad": "Musèu dera Val d’Aran in Vielha: Geschichte, Sprache und Bergkultur, kombiniert mit Altstadt, Café und Einkauf.",
+      "highlights": [
+        "Camin Reiau",
+        "Uelhs deth Joeu",
+        "Artiga de Lin",
+        "Val d’Aran"
+      ],
+      "images": [
+        [
+          "assets/fotos/pyrenaeen/p081_verneda_1.jpg",
+          "Verneda Camping / schattige Naturparzellen"
+        ],
+        [
+          "assets/fotos/pyrenaeen/p081_verneda_5.jpg",
+          "Uelhs deth Joeu / Artiga de Lin"
+        ],
+        [
+          "assets/fotos/pyrenaeen/p081_verneda_6.jpg",
+          "Restaurantterrasse am Garona"
+        ]
+      ],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Pont_d_Arros_Camping_Verneda_FREIGEGEBEN.pdf",
+      "quality": "V5.2-Standard vollständig",
+      "master_complete": true,
+      "special": {
+        "title": "Uelhs deth Joeu – das Wasser taucht wieder auf",
+        "text": "Hier erscheint jenes Aneto-Schmelzwasser wieder, das bei Benasque unterirdisch verschwindet – die zweite Hälfte desselben Naturphänomens."
+      }
     }
   ],
-  "synced_at": "2026-08-24"
+  "synced_at": "2026-08-24",
+  "total_places": 81
 }

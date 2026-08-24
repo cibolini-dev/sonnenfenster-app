@@ -1,5 +1,5 @@
 {
-  "version": "5.1",
+  "version": "5.2",
   "regions": [
     {
       "id": "aostatal",
@@ -2246,8 +2246,88 @@
       "source_pdf": "Sonnenfenster_Benasque_Camping_Aneto_FREIGEGEBEN.pdf",
       "source_confirmed": true,
       "app_ready": true
+    },
+    {
+      "id": "p080",
+      "region": "pyrenaeen",
+      "place": "Espot / Sant Maurici",
+      "camping": "Camping Solau",
+      "nights": "2–4",
+      "status": "App-Detail geprüft",
+      "summary": "Nur zehn ruhige Parzellen, Espot zu Fuss und der Nationalpark praktisch vor der Tür. Kurze Sunny-Wege und grosse Seentage lassen sich sauber trennen.",
+      "highlights": [
+        "Estany de Sant Maurici",
+        "Els Encantats",
+        "Estany de Ratera",
+        "Amitges"
+      ],
+      "dog": "Auf dem Camping angeleint. Im Nationalpark permanent Leine, kein Baden; der Sommer-Parkbus nimmt keine Tiere mit. 4×4-Hundetransport vorab bestätigen.",
+      "food": "La Llúpia ca. 5–10 Min. zu Fuss: Bergküche mit Escudella, Pilz-Cannelloni, Wildschweingulasch und Grillfleisch. Öffnung/Reservierung und Sunny-Terrasse am selben Tag klären.",
+      "hikes": [
+        "Parkrand ab Camping · leicht",
+        "Espot Dorf- und Flussrunde · leicht",
+        "Prat de Pierró · kurz",
+        "Sant Maurici am See · bedingt",
+        "Sant Maurici – Ratera · mittel",
+        "Amitges-Hochroute · lang"
+      ],
+      "bad_weather": "Casa del Parc Nacional d’Espot: Ausstellung, Filmraum, Beratung und Shop. Alternative bei Dauerregen: Ecomuseu Els Pastors in Llessui.",
+      "lat": null,
+      "lon": null,
+      "image": null,
+      "pdf": null,
+      "maps": null,
+      "facts": {
+        "Parzellen": "nur 10 grosszügige Plätze · Grünfläche mit Bäumen",
+        "Service": "Strom · Frischwasserfüllung · Schwarzwasser · Warmduschen · WLAN",
+        "Ankunft": "12:00–22:00 · Abreise bis 13:00",
+        "Wichtig": "Für 6-m-Hymer Rangierraum, Schatten und Stromdistanz vorab bestätigen"
+      },
+      "source_pdf": "Sonnenfenster_Espot_Camping_Solau_FREIGEGEBEN.pdf",
+      "source_confirmed": true,
+      "app_ready": true
+    },
+    {
+      "id": "p081",
+      "region": "pyrenaeen",
+      "place": "Pont d’Arròs / Verneda",
+      "camping": "Verneda Camping Mountain Resort",
+      "nights": "2–4",
+      "status": "App-Detail geprüft",
+      "summary": "Flache Grasparzellen für den Hymer, tiefer Baumschatten für Sunny, Camin Reiau direkt am Platz und aranesische Küche ohne Fussweg.",
+      "highlights": [
+        "Camin Reiau",
+        "Uelhs deth Joeu",
+        "Artiga de Lin",
+        "Val d’Aran"
+      ],
+      "dog": "Hunde gegen Zuschlag willkommen, angeleint und nie allein. Pool tabu. Direkter Camin Reiau und Garona-Uferweg sind starke kurze Optionen.",
+      "food": "Restaurant Verneda direkt am Camping: aranesische Gerichte, Grill, Tagesmenü, Pizza und lokale Produkte. Nach Olha Aranesa fragen; Sunny-Tisch auf der Terrasse explizit anfragen.",
+      "hikes": [
+        "Camin Reiau ab Camping · leicht",
+        "Garona-Uferweg · leicht",
+        "Bassa d’Oles · kurz",
+        "Artiga de Lin / Uelhs · leicht",
+        "Saut deth Pish · leicht–mittel",
+        "Aigües Tòrtes de Colomèrs · mittel"
+      ],
+      "bad_weather": "Musèu dera Val d’Aran in Vielha: Geschichte, Sprache und Bergkultur, kombiniert mit Altstadt, Café und Einkauf.",
+      "lat": null,
+      "lon": null,
+      "image": null,
+      "pdf": null,
+      "maps": null,
+      "facts": {
+        "PLUS-Parzelle": "80–95 m² · flacher Naturrasen · grosse Wohnmobile",
+        "Strom": "5 A · 2026 offiziell 9,60 € / Nacht",
+        "Service": "Warmwasser 24 h · Trinkwasser · Wasch/Trocken · WLAN · Minimarkt",
+        "Wunschplatz": "tiefer Nachmittagsschatten · Abstand zur N-230 und Animation"
+      },
+      "source_pdf": "Sonnenfenster_Pont_d_Arros_Camping_Verneda_FREIGEGEBEN.pdf",
+      "source_confirmed": true,
+      "app_ready": true
     }
   ],
   "synced_at": "2026-08-24",
-  "total_places": 79
+  "total_places": 81
 }
