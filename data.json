@@ -1,5 +1,5 @@
 {
-  "version": "5.0",
+  "version": "5.1",
   "regions": [
     {
       "id": "aostatal",
@@ -152,7 +152,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -233,7 +233,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -312,7 +312,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -384,7 +384,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -453,7 +453,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -519,7 +519,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -584,7 +584,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -669,7 +669,7 @@
       ],
       "region": "aostatal",
       "region_name": "Aostatal / Nordpiemont",
-      "quality": "V4.2-Master vollständig",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
       "master_complete": true
     },
     {
@@ -722,11 +722,20 @@
         "Glacier de Pièce",
         "Cabane des Vignettes"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p009_1.jpg",
+          "p009 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p009_2.jpg",
+          "p009 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p010",
@@ -748,22 +757,34 @@
       },
       "tours": [
         {
-          "name": "Eggishorn–Märjelensee–Fiescheralp",
-          "level": "mittel",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Eggishorn – Märjelensee – Fiescheralp",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Fieschertal–Burghütte",
-          "level": "mittel",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Fieschertal – Burghütte – zurück",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Fiescheralp–Bettmeralp–Riederalp",
-          "level": "leicht",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Fieschertal – Märjelensee – Fiescheralp",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Fiescheralp – Bettmeralp – Riederalp",
+          "level": "siehe Master",
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rundweg am Eggishorn",
+          "level": "siehe Master",
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -774,11 +795,20 @@
         "Fiescheralp",
         "Aletschgletscher"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p010_1.jpg",
+          "p010 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "https://dam.destination.one/559340/33ed738da025175d0fe5d40e2c4cc45d04f27a8826d5a2260ca01e32f4a4c8cb/restaurant-camping-eggishorn-fiesch-sommer-1.jpg",
+          "Camping Eggishorn · Fiesch"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Fiesch_Aletsch_FREIGEGEBEN_v2.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p011",
@@ -830,11 +860,24 @@
         "Moiry-Staumauer",
         "Hüttentage"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p011_1.jpg",
+          "p011 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p011_2.jpg",
+          "p011 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p011_3.jpg",
+          "p011 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Grimentz_FREIGEGEBEN_v2.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p012",
@@ -854,22 +897,34 @@
       },
       "tours": [
         {
-          "name": "Lauchernalp–Fafleralp",
-          "level": "leicht–mittel",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Lauchernalp – Fafleralp",
+          "level": "siehe Master",
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Lauchernalp–Kippel",
-          "level": "leicht",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Lauchernalp – Kippel",
+          "level": "siehe Master",
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Fafleralp–Anenhütte",
-          "level": "mittel–anspruchsvoll",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Lauchernalp – Jeizinen",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Loichi-Kugelweg – Wiler",
+          "level": "siehe Master",
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Fafleralp / Talabschluss",
+          "level": "siehe Master",
+          "detail": "FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -880,11 +935,20 @@
         "Schwarzsee",
         "Anenhütte"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p012_1.jpg",
+          "p012 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p012_2.jpg",
+          "p012 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Loetschental_Kippel_KORRIGIERT_v3.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p013",
@@ -936,11 +1000,20 @@
         "Lämmerenhütte",
         "Therme"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p013_1.jpg",
+          "p013 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p013_2.jpg",
+          "p013 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Leukerbad_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p014",
@@ -995,11 +1068,24 @@
         "Mattmark",
         "SaastalCard"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p014_1.jpg",
+          "p014 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p014_2.jpg",
+          "p014 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p014_3.jpg",
+          "p014 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Saas_Grund_FREIGEGEBEN_v2.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p015",
@@ -1054,11 +1140,24 @@
         "Almagellerhütte",
         "Monte Moro"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p015_1.jpg",
+          "p015 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p015_2.jpg",
+          "p015 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p015_3.jpg",
+          "p015 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Saas_Almagell_Mattmark_FREIGEGEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p016",
@@ -1078,22 +1177,34 @@
       },
       "tours": [
         {
-          "name": "Simplonpass",
+          "name": "Bergseen Rotelsee & Hopschusee",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Hospiz",
+          "name": "Stockalperweg → Simplon Dorf",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Passlandschaft",
+          "name": "Staldhorn 2'459 m",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Spitzhorli 2'736 m",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Monte-Leone-Hütte 2'848 m",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1103,11 +1214,24 @@
         "Hospiz",
         "Passlandschaft"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p016_1.jpg",
+          "p016 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p016_2.jpg",
+          "p016 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p016_3.jpg",
+          "p016 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Simplonpass_MASTER_VALNONTEY.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p017",
@@ -1159,11 +1283,24 @@
         "Täschalp",
         "Täschhütte"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p017_1.jpg",
+          "p017 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p017_2.jpg",
+          "p017 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p017_3.jpg",
+          "p017 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Taesch_Zermatt_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p018",
@@ -1218,11 +1355,20 @@
         "Sorebois",
         "Val de Zinal"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p018_1.jpg",
+          "p018 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p018_2.jpg",
+          "p018 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Zinal_FREIGEGEBEN_v2.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p019",
@@ -1274,11 +1420,20 @@
         "Tremorgio",
         "Gotthard"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p019_1.jpg",
+          "p019 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p019_2.jpg",
+          "p019 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Airolo_Leventina_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p020",
@@ -1330,11 +1485,24 @@
         "Val Calnègia",
         "Locarno"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p020_1.jpg",
+          "p020 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p020_2.jpg",
+          "p020 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p020_3.jpg",
+          "p020 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Avegno_Vallemaggia_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p021",
@@ -1386,11 +1554,20 @@
         "Valle Morobbia",
         "Lago Maggiore"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p021_1.jpg",
+          "p021 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p021_2.jpg",
+          "p021 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Cugnasco_Magadino_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p022",
@@ -1410,16 +1587,34 @@
       },
       "tours": [
         {
-          "name": "Luganersee",
+          "name": "Monte Generoso · Gipfelrunde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Monte Generoso",
+          "name": "Bellavista – Monte Generoso",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Sentiero Lago di Lugano · Generoso–Mendrisio",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Waldtäler des Monte Generoso",
+          "level": "siehe Master",
+          "detail": "MITTEL T2",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Monte San Giorgio",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1428,11 +1623,20 @@
         "Luganersee",
         "Monte Generoso"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p022_1.jpg",
+          "p022 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p022_2.jpg",
+          "p022 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p023",
@@ -1488,11 +1692,24 @@
         "Luzzone",
         "Greina"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p023_1.jpg",
+          "p023 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p023_2.jpg",
+          "p023 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p023_3.jpg",
+          "p023 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Olivone_Bleniotal_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p024",
@@ -1544,11 +1761,24 @@
         "Wasserfälle",
         "Verzasca"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p024_1.jpg",
+          "p024 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p024_2.jpg",
+          "p024 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p024_3.jpg",
+          "p024 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Sonogno_Verzascatal_FREIGEGEBEN_v2.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p025",
@@ -1584,6 +1814,12 @@
           "level": "siehe Master",
           "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
           "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bahnerlebnisweg Preda–Bergün",
+          "level": "leicht–mittel",
+          "detail": "Albula-Bahn, Viadukte und Bergwald; als flexibler Bahn-/Wandertag geeignet.",
+          "sunny": "gut dosierbar"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1593,11 +1829,20 @@
         "Bergün",
         "Bahnkultur"
       ],
-      "images": [],
+      "images": [
+        [
+          "https://www.berguen-filisur.graubuenden.ch/sites/berguen_filisur/files/styles/large_teaser_small/public/2022-09/bahnerlebnisweg-familie-sommer_8.jpg?h=790be497&itok=ifzxn3pV",
+          "Bahnerlebnisweg Albula"
+        ],
+        [
+          "https://www.myswissalps.com/wp-content/uploads/preda-berguen-rhb-train-768x512.jpg.webp",
+          "Albula-Bahn bei Bergün"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Berguen_Albulatal_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p026",
@@ -1617,22 +1862,40 @@
       },
       "tours": [
         {
-          "name": "Silsersee",
+          "name": "Juni – 30. September",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "RESERVATION",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Maloja",
+          "name": "Maloja – Lägh da Cavloc",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Engadin",
+          "name": "Maloja – Piz Lunghin – Pass Lunghin",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Grevasalvas · Via Engiadina",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Furtschellas – Val Fex – Sils",
+          "level": "siehe Master",
+          "detail": "MITTEL BIS ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Silsersee – Isola – Belvedere – Maloja",
+          "level": "siehe Master",
+          "detail": "MITTEL T2",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1642,11 +1905,24 @@
         "Maloja",
         "Engadin"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p026_1.jpg",
+          "p026 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p026_2.jpg",
+          "p026 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p026_3.jpg",
+          "p026 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Maloja_Silsersee_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p027",
@@ -1666,22 +1942,34 @@
       },
       "tours": [
         {
-          "name": "Morteratschgletscher",
+          "name": "Gletscherweg Morteratsch",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Chamanna da Boval",
+          "name": "Glacier Experience Trail",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Diavolezza",
+          "name": "Chamanna da Boval SAC",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Diavolezza · Piz Trovat",
+          "level": "siehe Master",
+          "detail": "ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Muottas Muragl – Alp Languard",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1691,11 +1979,20 @@
         "Chamanna da Boval",
         "Diavolezza"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p027_1.jpg",
+          "p027 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p027_2.jpg",
+          "p027 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p028",
@@ -1715,22 +2012,34 @@
       },
       "tours": [
         {
-          "name": "Via dal Rom",
+          "name": "A la riva dal Rom · Route 801",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Val Mora",
+          "name": "Val Mora – Döss Radond",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL BIS ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "UNESCO-Kloster",
+          "name": "Lai da Rims",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Müstair – Sta. Maria – Valchava",
+          "level": "siehe Master",
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Ofenpass / Munt la Schera",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1740,11 +2049,24 @@
         "Val Mora",
         "UNESCO-Kloster"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p028_1.jpg",
+          "p028 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p028_2.jpg",
+          "p028 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p028_3.jpg",
+          "p028 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p029",
@@ -1764,22 +2086,40 @@
       },
       "tours": [
         {
-          "name": "Tarasp",
+          "name": "Mai – 25. Oktober",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "HOCHSAISON",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Bergbahnen",
+          "name": "Juli – 15. August",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "STANDARD",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Bogn Engiadina",
+          "name": "Motta Naluns – Sent",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Tarasp – Lai Nair",
+          "level": "siehe Master",
+          "detail": "LEICHT BIS MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Guarda – Alp Sura",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Val S-charl",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1789,11 +2129,20 @@
         "Bergbahnen",
         "Bogn Engiadina"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p029_1.jpg",
+          "p029 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p029_2.jpg",
+          "p029 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p030",
@@ -1813,22 +2162,40 @@
       },
       "tours": [
         {
-          "name": "Schweizerischer Nationalpark",
+          "name": "Mai – 20. Oktober",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "HOCHSAISON",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Nationalparkzentrum",
+          "name": "Chamanna Cluozza",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL BIS ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
           "name": "Val Trupchun",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Margunet-Naturlehrpfad",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Murtaröl",
+          "level": "siehe Master",
+          "detail": "ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Inn-Radweg La Punt – Zernez",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -1838,11 +2205,20 @@
         "Nationalparkzentrum",
         "Val Trupchun"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p030_1.jpg",
+          "p030 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p030_2.jpg",
+          "p030 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p031",
@@ -1897,11 +2273,24 @@
         "Heidsee",
         "Pradaschier"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p031_1.jpg",
+          "p031 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p031_2.jpg",
+          "p031 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p031_3.jpg",
+          "p031 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Churwalden_Lenzerheide_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p032",
@@ -1921,22 +2310,40 @@
       },
       "tours": [
         {
-          "name": "Rinerhorn",
+          "name": "Glaris - Spina - Glaris",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 40 MIN",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Wasserkraft-Erlebnispfad",
+          "name": "Talrunde Glaris - Mühle - Chummen",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 2-3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "historischer Zug nach Filisur",
+          "name": "Erlebnispfad Wasserkraft Rinerhorn",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 4,8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rinerhorn - Sertig",
+          "level": "siehe Master",
+          "detail": "MITTEL · 7,3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rinerhorn - Monstein",
+          "level": "siehe Master",
+          "detail": "MITTEL · 8,7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Vier-Viadukte-Wanderung",
+          "level": "siehe Master",
+          "detail": "MITTEL · 13,7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant Blockhuus ca. 150 m / wenige Gehminuten.",
@@ -1946,11 +2353,24 @@
         "Wasserkraft-Erlebnispfad",
         "historischer Zug nach Filisur"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p032_1.jpg",
+          "p032 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p032_2.jpg",
+          "p032 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p032_3.jpg",
+          "p032 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Davos_Glaris_Rinerhorn_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p033",
@@ -2004,11 +2424,24 @@
         "Sunnibergbrücke",
         "Madrisa"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p033_1.jpg",
+          "p033 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p033_2.jpg",
+          "p033 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p033_3.jpg",
+          "p033 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Klosters_Madrisa_Schlappin_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p034",
@@ -2060,11 +2493,24 @@
         "Veia Traversina",
         "Hinterrhein"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p034_1.jpg",
+          "p034 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p034_2.jpg",
+          "p034 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p034_3.jpg",
+          "p034 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Thusis_Viamala_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p035",
@@ -2116,11 +2562,24 @@
         "Panoramapool",
         "Spa"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p035_1.jpg",
+          "p035 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p035_2.jpg",
+          "p035 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p035_3.jpg",
+          "p035 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Alpencamping_Nenzing_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p036",
@@ -2174,11 +2633,24 @@
         "Museum Bezau",
         "Schönenbach"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p036_1.jpg",
+          "p036 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p036_2.jpg",
+          "p036 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p036_3.jpg",
+          "p036 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Bezau_Bregenzerwald_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p037",
@@ -2230,11 +2702,20 @@
         "Buchboden",
         "Walderlebnispfad"
       ],
-      "images": [],
+      "images": [
+        [
+          "https://www.vorarlberg-alpenregion.at/VCloud/eyebase/Alpenregion%20Bludenz/1.%20Alpenregion%20Bludenz/1.2.%20Camping%20in%20der%20Alpenregion/Campingpl%C3%A4tze%20im%20Sommer/3024/image-thumb__3024__headerImage/camping-grosses-walsertal-raggal_773fe952-bd09-4e9e-9256-4941733d0aa2.ad37e0c5.jpg",
+          "Camping Grosswalsertal · Raggal"
+        ],
+        [
+          "https://cdn.acsi.eu/6/7/4/f/674f1c6608c78.jpg",
+          "Camping Grosswalsertal · Talblick"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Grosses_Walsertal_Raggal_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p038",
@@ -2254,22 +2735,40 @@
       },
       "tours": [
         {
-          "name": "Sella",
+          "name": "Canazei - Soronch - Campitello",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Pordoi",
+          "name": "Avisio-Talweg Richtung Alba",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Val Duron",
+          "name": "Campitello - Val Duron",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Basaltwasserfälle - Val Salei",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Viel dal Pan - Fedaia",
+          "level": "siehe Master",
+          "detail": "MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Col Rodella - Friedrich-August-Weg",
+          "level": "siehe Master",
+          "detail": "ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2279,11 +2778,20 @@
         "Pordoi",
         "Val Duron"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p038_1.jpg",
+          "p038 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "https://www.mondocamping.com/wp-content/uploads/2022/04/marmo4.jpg",
+          "Camping Marmolada · Canazei"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p039",
@@ -2335,11 +2843,20 @@
         "Pradel",
         "La Montanara"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p039_1.jpg",
+          "p039 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "https://resc.deskline.net/images/TRN/1/AA7205AB-5A05-434F-9C3C-30F05A17CEE3/99/4.JPG",
+          "Camping am Lago di Molveno"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Molveno_Brentadolomiten_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p040",
@@ -2359,16 +2876,40 @@
       },
       "tours": [
         {
-          "name": "Cascate Nardis",
+          "name": "Rendena-Weg & Carisolo",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Val Genova",
+          "name": "Castagneto Natural Wellness",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 1,8 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Nardis-Wasserfallrunde",
+          "level": "siehe Master",
+          "detail": "MITTEL · 9,6 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Eremo di San Martino",
+          "level": "siehe Master",
+          "detail": "SCHWER · 4,6 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Vallesinella – Via delle Valli",
+          "level": "siehe Master",
+          "detail": "MITTEL · 10,2 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rifugio Segantini",
+          "level": "siehe Master",
+          "detail": "MITTEL · 9,4 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2377,11 +2918,20 @@
         "Cascate Nardis",
         "Val Genova"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p040_1.jpg",
+          "p040 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p040_2.jpg",
+          "p040 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p041",
@@ -2401,22 +2951,40 @@
       },
       "tours": [
         {
-          "name": "Malga Canali",
+          "name": "Laghetto Welsperg - Muse Fedaie",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · ca. 5 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Rifugio Treviso",
+          "name": "Cant del Gal - Malga Canali",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 1:30 h",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Villa Welsperg",
+          "name": "Malga Canali - Rifugio Treviso",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 2:40 h",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "La Ritonda - Prati Fosne",
+          "level": "siehe Master",
+          "detail": "MITTEL · 4:00 h",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Passo Rolle - Baita Segantini",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2:00 h",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Val Canali - Rifugio Pradidali",
+          "level": "siehe Master",
+          "detail": "SCHWER · 6:00 h",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2426,11 +2994,24 @@
         "Rifugio Treviso",
         "Villa Welsperg"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p041_1.jpg",
+          "p041 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p041_2.jpg",
+          "p041 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p041_3.jpg",
+          "p041 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p042",
@@ -2482,11 +3063,20 @@
         "Valorz",
         "Terme di Rabbi"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p042_1.jpg",
+          "p042 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p042_2.jpg",
+          "p042 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Val_di_Rabbi_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p043",
@@ -2506,22 +3096,40 @@
       },
       "tours": [
         {
-          "name": "Lago dei Caprioli",
+          "name": "Noce-Weg & Castello San Michele",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Castello San Michele",
+          "name": "Valpiana – Sass Pisador",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 4,0 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Valpiana",
+          "name": "Caprioli – Monte Salvat – Valpiana",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 7,9 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Baita Velon – Malga Pecè",
+          "level": "siehe Master",
+          "detail": "MITTEL · 5,9 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Malga Strino",
+          "level": "siehe Master",
+          "detail": "LEICHT · 6,7 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Bivacco Malga Baselga",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6,9 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2531,11 +3139,20 @@
         "Castello San Michele",
         "Valpiana"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p043_1.jpg",
+          "p043 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p043_2.jpg",
+          "p043 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p044",
@@ -2555,22 +3172,40 @@
       },
       "tours": [
         {
-          "name": "Fanes",
+          "name": "Sciaré - Capanna Alpina",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Valparola",
+          "name": "Sciaré - Malga Valparola - Pass",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 5,7 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Capanna Alpina",
+          "name": "San Cassiano - Fanes - Pederü",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL · 13,6 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Valparola - Lagazuoi",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6,2 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Valparola - Pralongiá - St. Kassian",
+          "level": "siehe Master",
+          "detail": "MITTEL · 12,5 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Armentara-Wiesenrunde",
+          "level": "siehe Master",
+          "detail": "LEICHT · 14,3 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2580,11 +3215,20 @@
         "Valparola",
         "Capanna Alpina"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p044_1.jpg",
+          "p044 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "https://adriacamps.com/wp-content/uploads/2023/10/slidepicture-5.jpg",
+          "Camping Sass Dlacia · Alta Badia"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p045",
@@ -2604,22 +3248,40 @@
       },
       "tours": [
         {
-          "name": "Cortina",
+          "name": "Pian de Ra Spines",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 6,8 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Dolomiten",
+          "name": "Botanischer Weg Cascate di Fanes",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 7,0 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Hüttenwege",
+          "name": "Sant Hubertus - Malga Ra Stua",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 6,3 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rio Gere - Rifugio Mietres",
+          "level": "siehe Master",
+          "detail": "LEICHT · 4,7 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Drei-Hütten-Runde Ra Stua",
+          "level": "siehe Master",
+          "detail": "MITTEL · 14,5 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Passo Tre Croci - Lago Sorapis",
+          "level": "siehe Master",
+          "detail": "EXPERT · 10,5 km",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2629,11 +3291,20 @@
         "Dolomiten",
         "Hüttenwege"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p045_1.jpg",
+          "p045 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p045_2.jpg",
+          "p045 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Cortina_Ampezzo_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p046",
@@ -2653,22 +3324,40 @@
       },
       "tours": [
         {
-          "name": "Misurinasee",
+          "name": "Runde Lago di Misurina",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 3,2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Cadini",
+          "name": "Runde Lago d’Antorno",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 1:00 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Drei-Zinnen-Region",
+          "name": "Antorno - Rifugio Bosi",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL · 5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Antorno - Rifugio Auronzo",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Misurina - Rifugio Col de Varda",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Col de Varda - Rifugio Città di Carpi",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 2:30 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2678,11 +3367,24 @@
         "Cadini",
         "Drei-Zinnen-Region"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p046_1.jpg",
+          "p046 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p046_2.jpg",
+          "p046 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p046_3.jpg",
+          "p046 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Misurina_Cadini_di_Misurina_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p047",
@@ -2734,11 +3436,24 @@
         "Schlern",
         "Seiser Alm"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p047_1.jpg",
+          "p047 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p047_2.jpg",
+          "p047 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p047_3.jpg",
+          "p047 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Seiser_Alm_Schlern_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p048",
@@ -2790,11 +3505,20 @@
         "Sextner Stein",
         "Drei Zinnen"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p048_1.jpg",
+          "p048 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p048_2.jpg",
+          "p048 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Sexten_Drei_Zinnen_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p049",
@@ -2814,22 +3538,34 @@
       },
       "tours": [
         {
-          "name": "Toblacher See",
+          "name": "Rund um den Toblacher See",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 40 MIN",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Sarlkofel",
+          "name": "Gustav-Mahler-Rundweg",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 4,7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Naturparks",
+          "name": "Familienrunde Grieswaldile",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 5,3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Naturlehrweg Toblach - See",
+          "level": "siehe Master",
+          "detail": "LEICHT · 7,9 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Toblacher See - Sarlkofel",
+          "level": "siehe Master",
+          "detail": "SCHWER · 8,9 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant und Shop am Platz.",
@@ -2839,11 +3575,24 @@
         "Sarlkofel",
         "Naturparks"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p049_1.jpg",
+          "p049 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p049_2.jpg",
+          "p049 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p049_3.jpg",
+          "p049 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p050",
@@ -2901,11 +3650,24 @@
         "Lago Coldai",
         "Spiz Zuel"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p050_1.jpg",
+          "p050 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p050_2.jpg",
+          "p050 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p050_3.jpg",
+          "p050 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Val_di_Zoldo_Civetta_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p051",
@@ -2925,22 +3687,40 @@
       },
       "tours": [
         {
-          "name": "Pillersee",
+          "name": "Lauchsee-Morgenrunde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Wildseeloder",
+          "name": "Dorfwanderung Fieberbrunn",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 1 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Jakobskreuz",
+          "name": "Pillersee-Runde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 4,4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Eggerbergweg",
+          "level": "siehe Master",
+          "detail": "MITTEL · 8,8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Wildseelodersee",
+          "level": "siehe Master",
+          "detail": "MITTEL · BERGTOUR",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Wildseelodergipfel",
+          "level": "siehe Master",
+          "detail": "MITTEL · +45 MIN",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2950,11 +3730,20 @@
         "Wildseeloder",
         "Jakobskreuz"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p051_1.jpg",
+          "p051 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "https://tirol-camp.at/site/assets/files/1208/xtirol-camp-sommer.1920x1080.jpg.pagespeed.ic.RCljRWDj_t.jpg",
+          "Tirol Camp Fieberbrunn"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p052",
@@ -2974,22 +3763,40 @@
       },
       "tours": [
         {
-          "name": "Gepatschstausee",
+          "name": "Platz-Talweg",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · DIREKT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
           "name": "Verpeilschlucht",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL · 6,6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Kaunertaler Gletscher",
+          "name": "Seeles Seen",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 1,7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Panoramaweg Aifner-Falkauns",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6,2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Zirbenweg zum Gepatschhaus",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 5 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Thomas-Penz-Höhenweg",
+          "level": "siehe Master",
+          "detail": "SCHWER · 13,2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -2999,11 +3806,24 @@
         "Verpeilschlucht",
         "Kaunertaler Gletscher"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p052_1.jpg",
+          "p052 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p052_2.jpg",
+          "p052 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p052_3.jpg",
+          "p052 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p053",
@@ -3023,22 +3843,40 @@
       },
       "tours": [
         {
-          "name": "Tristachersee",
+          "name": "Runde Tristacher See",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 30 MIN",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Lienzer Dolomiten",
+          "name": "Alter See & Naturlehrpfad",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 1:15 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Lienz",
+          "name": "Goggsteig nach Amlach",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL · CA. 2:30 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rauchkofel vom See",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 4 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Karlsbader Hütte",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 4 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Rudl-Eller-Weg",
+          "level": "siehe Master",
+          "detail": "SCHWER · CA. 5 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Parkhotel Tristachersee nur wenige Gehminuten am Seeufer; regionale Küche, Öffnung aktuell bestätigen.",
@@ -3048,11 +3886,24 @@
         "Lienzer Dolomiten",
         "Lienz"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p053_1.jpg",
+          "p053 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p053_2.jpg",
+          "p053 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p053_3.jpg",
+          "p053 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Lienz_Tristachersee_Dolomiten_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p054",
@@ -3116,11 +3967,24 @@
         "Gleirschklamm",
         "Karwendel"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p054_1.jpg",
+          "p054 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p054_2.jpg",
+          "p054 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p054_3.jpg",
+          "p054 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Scharnitz_Karwendel_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p055",
@@ -3172,11 +4036,24 @@
         "Ötzi-Dorf",
         "Klettersteig"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p055_1.jpg",
+          "p055 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p055_2.jpg",
+          "p055 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p055_3.jpg",
+          "p055 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Umhausen_Stuibenfall_Oetztal_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p056",
@@ -3196,22 +4073,40 @@
       },
       "tours": [
         {
-          "name": "Walchsee",
+          "name": "Seemühle-Uferrunde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Kaisergebirge",
+          "name": "Walchsee-Runde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 5,16 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Wandberg",
+          "name": "Kugelwandrunde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL · 4,10 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Riederalm-Ottenalm",
+          "level": "siehe Master",
+          "detail": "LEICHT · 3,7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Kugelwand-Harauerspitze",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6,4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Lochnerfall-Wandberg",
+          "level": "siehe Master",
+          "detail": "MITTEL · 13,8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3221,11 +4116,20 @@
         "Kaisergebirge",
         "Wandberg"
       ],
-      "images": [],
+      "images": [
+        [
+          "https://stellplatz.info/img/740148/wohnmobilstellplatz-camping-seespitz-1219127.jpg",
+          "Camping am Walchsee · Luftbild"
+        ],
+        [
+          "https://www.campingseespitz.at/fileadmin/userdaten/bilder/content/badesteg.jpg",
+          "Walchsee · Badesteg am Camping"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p057",
@@ -3245,22 +4149,40 @@
       },
       "tours": [
         {
-          "name": "Sava Bohinjka",
+          "name": "Sava-Runde ab Camp",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 2–4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Bohinjsee",
+          "name": "Ajdovski gradec",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 1:30 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Triglav-Region",
+          "name": "Bohinjsee per Velo",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 14.9 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Mostnica & Voje",
+          "level": "siehe Master",
+          "detail": "MITTEL · 3–5 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Orožnova koIa",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6.6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Irna prst",
+          "level": "siehe Master",
+          "detail": "SCHWER · 12.2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3270,11 +4192,24 @@
         "Bohinjsee",
         "Triglav-Region"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p057_1.jpg",
+          "p057 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p057_2.jpg",
+          "p057 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p057_3.jpg",
+          "p057 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p058",
@@ -3326,11 +4261,24 @@
         "Boka",
         "Rafting"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p058_1.jpg",
+          "p058 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p058_2.jpg",
+          "p058 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p058_3.jpg",
+          "p058 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Bovec_Soca_Camp_Liza_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p059",
@@ -3350,22 +4298,40 @@
       },
       "tours": [
         {
-          "name": "Martuljek-Wasserfälle",
+          "name": "Wasserfall",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "Jasenje",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Sava-Wege",
+          "name": "Sava-Weg ab Camp",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 2–5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Špik",
+          "name": "Radweg Kranjska Gora",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 10 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Unterer Martuljekfall",
+          "level": "siehe Master",
+          "detail": "MITTEL · 2.9 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Srednji Vrh",
+          "level": "siehe Master",
+          "detail": "MITTEL · CA. 7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Jasna über DrIev rut",
+          "level": "siehe Master",
+          "detail": "MITTEL · 7.4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3375,11 +4341,24 @@
         "Sava-Wege",
         "Špik"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p059_1.jpg",
+          "p059 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p059_2.jpg",
+          "p059 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p059_3.jpg",
+          "p059 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p060",
@@ -3431,11 +4410,24 @@
         "Kobarid Museum",
         "Soča"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p060_1.jpg",
+          "p060 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p060_2.jpg",
+          "p060 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p060_3.jpg",
+          "p060 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Kobarid_Kozjak_Camp_Koren_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p061",
@@ -3487,11 +4479,24 @@
         "Savinja",
         "Badesee"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p061_1.jpg",
+          "p061 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p061_2.jpg",
+          "p061 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p061_3.jpg",
+          "p061 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Recica_ob_Savinji_Camp_Menina_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p062",
@@ -3545,11 +4550,24 @@
         "Javorca",
         "Kolovrat"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p062_1.jpg",
+          "p062 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p062_2.jpg",
+          "p062 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p062_3.jpg",
+          "p062 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p063",
@@ -3604,11 +4622,24 @@
         "Burgen",
         "Radweg"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p063_1.jpg",
+          "p063 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p063_2.jpg",
+          "p063 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p063_3.jpg",
+          "p063 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Niedzica_Camping_Polana_Sosny_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p064",
@@ -3628,22 +4659,40 @@
       },
       "tours": [
         {
-          "name": "Biały-Dunajec-Runde",
-          "level": "leicht",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Bialy-Dunajec-Runde",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2–4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
           "name": "Szaflary & St.-Andreas",
-          "level": "leicht",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "level": "siehe Master",
+          "detail": "LEICHT · 5–7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Białka-Durchbruch",
-          "level": "leicht",
-          "detail": "Details im freigegebenen Master",
-          "sunny": "individuell prüfen"
+          "name": "Eulen-Lehrweg",
+          "level": "siehe Master",
+          "detail": "LEICHT · 6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Weg rund um die Tatra",
+          "level": "siehe Master",
+          "detail": "FLEXIBEL · RAD",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Bialka-Durchbruch",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2–5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Turbacz-Tag",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6–7 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3654,11 +4703,24 @@
         "Nowy Targ",
         "Tatra-Radweg"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p064_1.jpg",
+          "p064 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p064_2.jpg",
+          "p064 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p064_3.jpg",
+          "p064 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Szaflary_Camp_Goracy_Potok_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p065",
@@ -3712,11 +4774,24 @@
         "Tatra-Täler",
         "Zakopane"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p065_1.jpg",
+          "p065 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p065_2.jpg",
+          "p065 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p065_3.jpg",
+          "p065 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Zakopane_Camping_Pod_Krokwia_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p066",
@@ -3736,16 +4811,40 @@
       },
       "tours": [
         {
-          "name": "Queyras",
+          "name": "Lärchenwald & Teich",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY · 1-3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Aiguilles",
+          "name": "Aiguilles-Dorfrunde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY · CA. 4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Sentier des Fourmis",
+          "level": "siehe Master",
+          "detail": "SUNNY* · KURZ",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Guil-Ufer Richtung Fort",
+          "level": "siehe Master",
+          "detail": "SUNNY* · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Lacs du Malrif",
+          "level": "siehe Master",
+          "detail": "ROMAN · 12.4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Pain de Sucre",
+          "level": "siehe Master",
+          "detail": "ROMAN · 5.8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3754,11 +4853,20 @@
         "Queyras",
         "Aiguilles"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p066_1.jpg",
+          "p066 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMjMyLzg0LzkxOTY3NzYuanBn/image.webp",
+          "Camping municipal Le Gouret · Aiguilles"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Aiguilles_Camping_Le_Gouret_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p067",
@@ -3778,22 +4886,40 @@
       },
       "tours": [
         {
-          "name": "Tarentaise",
+          "name": "Isère-Uferweg",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 3-8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Bourg-Runde",
+          "level": "siehe Master",
+          "detail": "LEICHT · 3-5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
           "name": "Filature Arpin",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · CA. 2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Bourg-Saint-Maurice",
+          "name": "Markierter Radweg",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Arc 1600",
+          "level": "siehe Master",
+          "detail": "OPTION · 7 MIN FAHRT",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Wildwasser auf der Isère",
+          "level": "siehe Master",
+          "detail": "ROMAN · SPORTLICH",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3803,11 +4929,24 @@
         "Filature Arpin",
         "Bourg-Saint-Maurice"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p067_1.jpg",
+          "p067 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p067_2.jpg",
+          "p067 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p067_3.jpg",
+          "p067 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Bourg_Saint_Maurice_Huttopia_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p068",
@@ -3827,22 +4966,40 @@
       },
       "tours": [
         {
-          "name": "Montenvers",
+          "name": "Arve- und Zentrumsrunde",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 2–4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Mer de Glace",
+          "name": "Lac des Gaillands",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "LEICHT · 4–6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
           "name": "Cascade du Dard",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "MITTEL · 6.6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Petit Balcon Sud",
+          "level": "siehe Master",
+          "detail": "LEICHT · 3.8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Montenvers & Glaciorium",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2–3 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Chamonix–Montenvers",
+          "level": "siehe Master",
+          "detail": "MITTEL · 4–5 H",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3852,11 +5009,20 @@
         "Mer de Glace",
         "Cascade du Dard"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p068_1.jpg",
+          "p068 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p068_2.jpg",
+          "p068 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": null,
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p069",
@@ -3911,11 +5077,24 @@
         "Cerces",
         "Strohskulpturen"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p069_1.jpg",
+          "p069 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p069_2.jpg",
+          "p069 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p069_3.jpg",
+          "p069 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Valloire_Camping_Sainte_Thecle_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p070",
@@ -3935,22 +5114,40 @@
       },
       "tours": [
         {
-          "name": "Vallouise",
+          "name": "Vallouise & Gyr",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY · 2-4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Écrins",
+          "name": "Cascade de la Pissette",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY* · 2.2 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Talwege",
+          "name": "Sentier des Lutins",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY* · 4.3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Béal Neuf",
+          "level": "siehe Master",
+          "detail": "SUNNY* · 4.4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Onde & Le Villard",
+          "level": "siehe Master",
+          "detail": "SPORTLICH · 10.3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Refuge Glacier Blanc",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO · 9.1 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -3960,11 +5157,24 @@
         "Écrins",
         "Talwege"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p070_1.jpg",
+          "p070 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p070_2.jpg",
+          "p070 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p070_3.jpg",
+          "p070 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Vallouise_Huttopia_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p071",
@@ -3984,16 +5194,40 @@
       },
       "tours": [
         {
-          "name": "Luz-Saint-Sauveur",
+          "name": "Jan.–1. Apr., 16. Mai–4. Okt. und 20.–31. Dez.; Termin direkt bestätigen.",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "KAPAZITÄT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Pyrenäentäler",
+          "name": "Uferweg am Gave du Bastan",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY · LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Croix de Saint-Justin",
+          "level": "siehe Master",
+          "detail": "SUNNY* · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Château Sainte-Marie",
+          "level": "siehe Master",
+          "detail": "SUNNY* · KURZ",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Plateau de Saugué",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO · MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Cirque de Gavarnie",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO · MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -4002,11 +5236,24 @@
         "Luz-Saint-Sauveur",
         "Pyrenäentäler"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p071_1.jpg",
+          "p071 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p071_2.jpg",
+          "p071 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p071_3.jpg",
+          "p071 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "12_Pyrenaeen_01_Luz-Saint-Sauveur_Le-Bastan_MASTER-VALNONTEY.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p072",
@@ -4026,22 +5273,40 @@
       },
       "tours": [
         {
-          "name": "Cauterets",
+          "name": "Ort & Gave de Cauterets",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY · LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Wasserfälle",
+          "name": "Fruitière-Tal",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY* · FLEXIBEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
         },
         {
-          "name": "Pyrenäen",
+          "name": "Plateau du Clot",
           "level": "siehe Master",
-          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
-          "sunny": "individuell prüfen"
+          "detail": "SUNNY* · KURZ",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Lac de Gaube via Lifte",
+          "level": "siehe Master",
+          "detail": "SUNNY* · 20 MIN",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Chemin des Cascades",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO · MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Oulettes de Gaube",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO · LANG",
+          "sunny": "gemäss Sunny-Logik prüfen"
         }
       ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
@@ -4051,11 +5316,20 @@
         "Wasserfälle",
         "Pyrenäen"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p072_1.jpg",
+          "p072 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p072_2.jpg",
+          "p072 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "12_Pyrenaeen_02_Cauterets_Camping-La-Prairie_MASTER-VALNONTEY.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "p073",
@@ -4109,11 +5383,24 @@
         "Río Ara",
         "Cola de Caballo"
       ],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/p073_1.jpg",
+          "p073 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p073_2.jpg",
+          "p073 · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/p073_3.jpg",
+          "p073 · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "12_Pyrenaeen_03_Torla-Ordesa_Camping-Rio-Ara_MASTER-VALNONTEY.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "new_samoens",
@@ -4131,15 +5418,65 @@
         "rating": "sehr gut",
         "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
       },
-      "tours": [],
+      "tours": [
+        {
+          "name": "Lacs aux Dames",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2–4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Samoëns & Jaysinia",
+          "level": "siehe Master",
+          "detail": "LEICHT · 3–5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Au fil du Giffre",
+          "level": "siehe Master",
+          "detail": "LEICHT · 4–8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Gorges des Tines",
+          "level": "siehe Master",
+          "detail": "MITTEL · 6.3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Cirque du Fer-à-Cheval",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2–5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Refuge de Folly",
+          "level": "siehe Master",
+          "detail": "MITTEL · 8.7 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        }
+      ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
       "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
       "highlights": [],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/new_samoens_1.jpg",
+          "new_samoens · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_samoens_2.jpg",
+          "new_samoens · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_samoens_3.jpg",
+          "new_samoens · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Samoens_Camping_Le_Giffre_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "new_grandbornand",
@@ -4157,15 +5494,65 @@
         "rating": "sehr gut",
         "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
       },
-      "tours": [],
+      "tours": [
+        {
+          "name": "Borne & Römerbrücke",
+          "level": "siehe Master",
+          "detail": "LEICHT · 3–5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Dorf & Maison du Patrimoine",
+          "level": "siehe Master",
+          "detail": "LEICHT · 2–4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Sentier de la Forêt",
+          "level": "siehe Master",
+          "detail": "LEICHT · 1 H 30",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Vallée du Bouchet",
+          "level": "siehe Master",
+          "detail": "LEICHT · 5–10 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Clé des Annes",
+          "level": "siehe Master",
+          "detail": "LEICHT · 5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Aiguille Verte & Lac de Lessy",
+          "level": "siehe Master",
+          "detail": "ANSPRUCHSVOLL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        }
+      ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
       "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
       "highlights": [],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/new_grandbornand_1.jpg",
+          "new_grandbornand · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_grandbornand_2.jpg",
+          "new_grandbornand · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_grandbornand_3.jpg",
+          "new_grandbornand · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Le_Grand_Bornand_Camping_L_Escale_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "new_barcelonnette",
@@ -4183,15 +5570,65 @@
         "rating": "sehr gut",
         "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
       },
-      "tours": [],
+      "tours": [
+        {
+          "name": "Mai bis 27. September; täglich geöffnet.",
+          "level": "siehe Master",
+          "detail": "PREIS 2026",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Ubaye-Ufer & Altstadt",
+          "level": "siehe Master",
+          "detail": "SUNNY · 3-5 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Mexikanische Villenrunde",
+          "level": "siehe Master",
+          "detail": "SUNNY · 4-6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Gaudissard-Wald",
+          "level": "siehe Master",
+          "detail": "SUNNY* · VARIABEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Faucon / La Routo",
+          "level": "siehe Master",
+          "detail": "SUNNY* · KURZ",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Cime de la Bonette",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        }
+      ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
       "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
       "highlights": [],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/new_barcelonnette_1.jpg",
+          "new_barcelonnette · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_barcelonnette_2.jpg",
+          "new_barcelonnette · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_barcelonnette_3.jpg",
+          "new_barcelonnette · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Barcelonnette_Camping_Le_Tampico_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "new_castellane",
@@ -4209,15 +5646,65 @@
         "rating": "sehr gut",
         "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
       },
-      "tours": [],
+      "tours": [
+        {
+          "name": "Chemin de la Barricade",
+          "level": "siehe Master",
+          "detail": "SUNNY · 3 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Sentier du Roc",
+          "level": "siehe Master",
+          "detail": "SUNNY* · 4 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Notre-Dame du Roc",
+          "level": "siehe Master",
+          "detail": "SUNNY* · 3,6 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Sentier des Siréniens",
+          "level": "siehe Master",
+          "detail": "SUNNY · 3,8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Lac de Castillon",
+          "level": "siehe Master",
+          "detail": "TEILSTÜCK · 8 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Blanc-Martel",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO · 15 KM",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        }
+      ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
       "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
       "highlights": [],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/new_castellane_1.jpg",
+          "new_castellane · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_castellane_2.jpg",
+          "new_castellane · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_castellane_3.jpg",
+          "new_castellane · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Castellane_Camping_Frederic_Mistral_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     },
     {
       "id": "new_colmars",
@@ -4235,15 +5722,157 @@
         "rating": "sehr gut",
         "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
       },
-      "tours": [],
+      "tours": [
+        {
+          "name": "Stadtmauern & Fort de France",
+          "level": "siehe Master",
+          "detail": "SUNNY · LEICHT",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Cascade de la Lance",
+          "level": "siehe Master",
+          "detail": "SUNNY* · 45 MIN",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Fort de Savoie",
+          "level": "siehe Master",
+          "detail": "SUNNY* · KURZ",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Forêt de Ratery",
+          "level": "siehe Master",
+          "detail": "SUNNY* · 2+ STD",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Canal de l’Adroit",
+          "level": "siehe Master",
+          "detail": "SUNNY* · MITTEL",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        },
+        {
+          "name": "Lac d’Allos / Mercantour",
+          "level": "siehe Master",
+          "detail": "ROMAN SOLO",
+          "sunny": "gemäss Sunny-Logik prüfen"
+        }
+      ],
       "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
       "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
       "highlights": [],
-      "images": [],
+      "images": [
+        [
+          "assets/photos/new_colmars_1.jpg",
+          "new_colmars · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_colmars_2.jpg",
+          "new_colmars · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/new_colmars_3.jpg",
+          "new_colmars · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
       "links": [],
       "source_pdf": "Sonnenfenster_Colmars_les_Alpes_Camping_Les_Pommiers_FREIGEGEBEN.pdf",
-      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
-      "master_complete": false
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
+    },
+    {
+      "id": "benasque-aneto",
+      "region": "pyrenaeen",
+      "region_name": "Pyrenäen",
+      "place": "Benasque / Aneto",
+      "camping": "Camping Aneto",
+      "height": "1’220 m",
+      "nights": "3–5",
+      "why": "Schattiger Grasplatz zwischen Ésera und Estós, direkt am GR 11. Pool, Restaurant, Supermarkt, Hundebereich und Hundedusche treffen auf echte Hochgebirgstouren im Posets-Maladeta-Gebiet.",
+      "camp": {
+        "Lage": "A-139 km 63,5 · 3 km vor Benasque",
+        "Parzellen": "Gras · Schatten oder Sonne · mit/ohne Strom",
+        "Camper": "Wasserstellen · Grauwasserablass · 15-m-Verlängerungskabel empfohlen",
+        "Sanitär": "3 Sanitärblöcke mit Warmwasser · Waschmaschine/Trockner",
+        "Sommer": "Pool 22 °C · Supermarkt mit Frischbrot · Bar-Restaurant",
+        "Saison": "Dezember bis Oktober · 2026-Verfügbarkeit prüfen",
+        "Sunny": "Agilitybereich · Hundedusche · Hunde auf Parzellen willkommen"
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Campingseitig besonders stark: Gras, Schatten, zwei Flüsse, eigener Agilitybereich und Hundedusche. Für Sunny kurze Flussrunde und nur den schattigen Beginn des Estós-Tals; Sommerbus zu La Besurta transportiert Tiere in Boxen im Gepäckraum und ist deshalb kein guter Standardtag."
+      },
+      "tours": [
+        {
+          "name": "Flussrunde am Camping",
+          "level": "leicht",
+          "detail": "Zwischen Ésera, Estós und Hundebereich · flach und jederzeit umkehrbar",
+          "sunny": "sehr gut"
+        },
+        {
+          "name": "GR 11 ins Estós-Tal",
+          "level": "kurz / leicht",
+          "detail": "Schattigen Anfang direkt ab Campingtor wählen",
+          "sunny": "gut dosierbar"
+        },
+        {
+          "name": "Benasque / Anciles",
+          "level": "leicht / Ort",
+          "detail": "Historische Gassen als kurzer Kulturtag",
+          "sunny": "gut"
+        },
+        {
+          "name": "Forau de Aigualluts",
+          "level": "mittel",
+          "detail": "13,4 km · 340 Hm · ca. 4 h · Sommerbus nach La Besurta",
+          "sunny": "nein"
+        },
+        {
+          "name": "Refugio de Estós",
+          "level": "lang",
+          "detail": "Direkt ab Platz rund 19 km retour · 980 Hm",
+          "sunny": "nein"
+        },
+        {
+          "name": "Ibón de Cregüeña",
+          "level": "schwer",
+          "detail": "Anspruchsvoller Hochgebirgstag zum grossen Gletschersee",
+          "sunny": "nein"
+        }
+      ],
+      "food": "Bar-Restaurant Camping Aneto direkt am Platz (Juni–September, zusätzlich einzelne Feiertagsperioden). Besonderer Abend: Restaurante Ansils in Anciles – kleine moderne Pyrenäenküche, früh reservieren; eher Taxi-/Fahrabend als Fussroutine.",
+      "bad": "Kurze Flussrunde, Benasque/Anciles, Aufenthaltsraum La Borda; bei Gewitter und Restschnee keine Hochgebirgstour erzwingen.",
+      "highlights": [
+        "Forau de Aigualluts",
+        "Estós-Tal",
+        "Posets-Maladeta",
+        "Benasque"
+      ],
+      "images": [
+        [
+          "assets/photos/benasque-aneto_1.jpg",
+          "benasque-aneto · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/benasque-aneto_2.jpg",
+          "benasque-aneto · Foto aus freigegebenem Sonnenfenster-Master"
+        ],
+        [
+          "assets/photos/benasque-aneto_3.jpg",
+          "benasque-aneto · Foto aus freigegebenem Sonnenfenster-Master"
+        ]
+      ],
+      "links": [
+        [
+          "Camping Aneto",
+          "https://www.campinganeto.com/de"
+        ]
+      ],
+      "source_pdf": "Sonnenfenster_Benasque_Camping_Aneto_FREIGEGEBEN.pdf",
+      "quality": "V5.1 · vollständige App-Struktur mit Bildern",
+      "master_complete": true
     }
   ],
   "synced_at": "2026-08-24"

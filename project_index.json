@@ -1,5 +1,5 @@
 {
-  "version": "4.2-sync",
+  "version": "5.1",
   "regions": [
     {
       "id": "aostatal",
@@ -2237,7 +2237,17 @@
       "camping": "Camping Les Pommiers",
       "status": "FREIGEGEBEN · App-Aufbereitung folgt",
       "source_pdf": "Sonnenfenster_Colmars_les_Alpes_Camping_Les_Pommiers_FREIGEGEBEN.pdf"
+    },
+    {
+      "id": "benasque-aneto",
+      "region": "pyrenaeen",
+      "place": "Benasque / Aneto",
+      "camping": "Camping Aneto",
+      "source_pdf": "Sonnenfenster_Benasque_Camping_Aneto_FREIGEGEBEN.pdf",
+      "source_confirmed": true,
+      "app_ready": true
     }
   ],
-  "synced_at": "2026-08-24"
+  "synced_at": "2026-08-24",
+  "total_places": 79
 }

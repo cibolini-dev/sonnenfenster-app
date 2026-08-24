@@ -1,0 +1,13 @@
+V5.1 – ABSCHLUSSPRÜFUNG
+OK: 79 Plätze
+OK: 12 Regionen
+OK: alle Plätze mit >=2 Bildern
+OK: alle Plätze mit >=4 Touren
+OK: alle Plätze mit Platzdetails
+OK: alle Plätze mit Hund/Sunny
+OK: alle Plätze mit Essen
+OK: alle Plätze mit Schlechtwetter
+OK: Wohnmobil-Appbild
+OK: JavaScript Syntax
+
+Bestandsabgleich 24.08.2026: Benasque / Camping Aneto ist nach V5.0 neu hinzugekommen und in V5.1 integriert. Beim aktuellen Abgleich wurde kein weiterer neuerer freigegebener Platz gefunden.
