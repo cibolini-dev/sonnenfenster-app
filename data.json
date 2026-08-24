@@ -1,11 +1,79 @@
 {
-  "version": "4.2",
-  "region": {
-    "id": "aostatal",
-    "name": "Aostatal / Nordpiemont",
-    "lat": 45.68,
-    "lon": 7.32
-  },
+  "version": "5.0",
+  "regions": [
+    {
+      "id": "aostatal",
+      "name": "Aostatal / Nordpiemont",
+      "lat": 45.61,
+      "lon": 7.36
+    },
+    {
+      "id": "wallis",
+      "name": "Wallis",
+      "lat": 46.18,
+      "lon": 7.62
+    },
+    {
+      "id": "tessin",
+      "name": "Tessin",
+      "lat": 46.2,
+      "lon": 8.8
+    },
+    {
+      "id": "suedbuenden",
+      "name": "Südbünden / Engadin",
+      "lat": 46.49,
+      "lon": 9.9
+    },
+    {
+      "id": "trentino",
+      "name": "Trentino",
+      "lat": 46.15,
+      "lon": 10.95
+    },
+    {
+      "id": "dolomiten",
+      "name": "Dolomiten / Südtirol",
+      "lat": 46.55,
+      "lon": 11.9
+    },
+    {
+      "id": "nordbuenden",
+      "name": "Nordbünden / Vorarlberg",
+      "lat": 46.95,
+      "lon": 9.75
+    },
+    {
+      "id": "tirol",
+      "name": "Tirol",
+      "lat": 47.2,
+      "lon": 10.95
+    },
+    {
+      "id": "slowenien",
+      "name": "Slowenien",
+      "lat": 46.35,
+      "lon": 13.78
+    },
+    {
+      "id": "suedpolen",
+      "name": "Südpolen / Tatra",
+      "lat": 49.3,
+      "lon": 19.95
+    },
+    {
+      "id": "fralpen",
+      "name": "Französische Alpen",
+      "lat": 45.65,
+      "lon": 6.85
+    },
+    {
+      "id": "pyrenaeen",
+      "name": "Pyrenäen",
+      "lat": 42.85,
+      "lon": 0.05
+    }
+  ],
   "places": [
     {
       "id": "valnontey",
@@ -81,7 +149,11 @@
           "Tourismus Cogne",
           "https://www.cogneturismo.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "lillaz",
@@ -158,7 +230,11 @@
           "Visit Cogne",
           "https://www.cogneturismo.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "pont",
@@ -233,7 +309,11 @@
           "Valsavarenche",
           "https://www.lovevda.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "valgrisenche",
@@ -301,7 +381,11 @@
           "Aostatal Tourismus",
           "https://www.lovevda.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "riale",
@@ -366,7 +450,11 @@
           "Val Formazza",
           "https://www.valformazza.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "macugnaga",
@@ -428,7 +516,11 @@
           "Camping",
           "https://naturalcamping.ossolacollection.com/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "champorcher",
@@ -489,7 +581,11 @@
           "Aostatal Tourismus",
           "https://www.lovevda.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
     },
     {
       "id": "valferret",
@@ -570,7 +666,3585 @@
           "Courmayeur",
           "https://www.courmayeurmontblanc.it/"
         ]
-      ]
+      ],
+      "region": "aostatal",
+      "region_name": "Aostatal / Nordpiemont",
+      "quality": "V4.2-Master vollständig",
+      "master_complete": true
+    },
+    {
+      "id": "p009",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Arolla",
+      "camping": "Camping 2026",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Hochalpine Walliser Basis mit Lac Bleu als zugänglichem Gegenpol zu ernsthaften Hütten- und Gletscherwegen.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Pra-Gra-/Waldwege als kurze Reserve; anspruchsvolle Hütten- und Gletscherwege getrennt."
+      },
+      "tours": [
+        {
+          "name": "Lac Bleu",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Cabane des Aiguilles Rouges",
+          "level": "anspruchsvoll",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Pra Gra / Waldwege",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Glacier de Pièce",
+          "level": "mittel–anspruchsvoll",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Kurze Wald-/Talwege als Reserve.",
+      "highlights": [
+        "Lac Bleu",
+        "Aiguilles Rouges",
+        "Glacier de Pièce",
+        "Cabane des Vignettes"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p010",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Fiesch / Aletsch",
+      "camping": "Camping Eggishorn",
+      "height": "ca. 1'030–1'050 m",
+      "nights": "2–4",
+      "why": "Komfortable Talbasis am Bergbach für das Aletschgebiet, mit ebenem Wiesengelände, Schatten, Pool und Bergbahnzugang.",
+      "camp": {
+        "height": "ca. 1'030–1'050 m",
+        "surface": "ebenes Gras · Bäume/Schatten",
+        "service": "Strom · Wasser/Entsorgung · beheiztes Schwimmbad"
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Tal- und Panoramavarianten dosieren; grosse Gletschertage separat planen."
+      },
+      "tours": [
+        {
+          "name": "Eggishorn–Märjelensee–Fiescheralp",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Fieschertal–Burghütte",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Fiescheralp–Bettmeralp–Riederalp",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Eggishorn",
+        "Märjelensee",
+        "Fiescheralp",
+        "Aletschgletscher"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Fiesch_Aletsch_FREIGEGEBEN_v2.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p011",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Grimentz",
+      "camping": "Les Bouesses",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Komplette Walliser Basis mit Versorgung, Bergbahnen in Gehdistanz und dem Val de Moiry als vielseitigem Hochgebirgsrevier.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Bendolla",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val de Moiry",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Moiry-Staumauer",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Hüttentage",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Dorf und Staumauer sind echte Mischwetteroptionen.",
+      "highlights": [
+        "Bendolla",
+        "Val de Moiry",
+        "Moiry-Staumauer",
+        "Hüttentage"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Grimentz_FREIGEGEBEN_v2.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p012",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Lötschental / Kippel",
+      "camping": "Kippel",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Walliser Talbasis für den wieder offenen Lötschentaler Höhenweg, Fafleralp und Anenhütte; kurze Bergbahnvarianten lassen sich gut dosieren.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Lauchernalp–Fafleralp",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lauchernalp–Kippel",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Fafleralp–Anenhütte",
+          "level": "mittel–anspruchsvoll",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Dorf-/Talprogramm und kurze Lauchernalp-Variante statt grossem Hüttentag.",
+      "highlights": [
+        "Lauchernalp",
+        "Fafleralp",
+        "Schwarzsee",
+        "Anenhütte"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Loetschental_Kippel_KORRIGIERT_v3.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p013",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Leukerbad",
+      "camping": "Leukerbad",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Offizieller Campingplatz mit Gemmi, Daubensee und Lämmerenhütte; Therme und Sportarena machen den Standort auch bei Mischwetter stark.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Gemmi",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Daubensee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lämmerenhütte",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Therme",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Therme und Sportarena sind echte Schlechtwetteralternativen.",
+      "highlights": [
+        "Gemmi",
+        "Daubensee",
+        "Lämmerenhütte",
+        "Therme"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Leukerbad_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p014",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Saas-Grund",
+      "camping": "Camping Schönblick",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Komfortabler Wiesencamping mit guter Versorgung, ÖV fast vor der Tür und grossem Tourenradius über Kreuzboden und Hohsaas.",
+      "camp": {
+        "surface": "Gras-/Wiesengelände · teils schattig",
+        "service": "moderne Sanitäranlage · Waschmaschine · Trockner · Brotservice",
+        "public_transport": "Bushaltestelle nahe beim Platz",
+        "cablecar": "Kreuzboden / Hohsaas"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Talwege und schattige Abschnitte als Sunny-Reserve; Bergbahnen ermöglichen flexible Dosierung."
+      },
+      "tours": [
+        {
+          "name": "Kreuzboden Panorama",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Kreuzboden–Almagelleralp",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Hohsaas Panorama",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Mattmark-Stausee",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Brotservice/Kiosk am Platz; Restaurants im Saastal per ÖV gut erreichbar.",
+      "bad": "Mattmark als flachere Reserve; ÖV im Saastal erweitert die Ausweichmöglichkeiten.",
+      "highlights": [
+        "Kreuzboden",
+        "Hohsaas",
+        "Mattmark",
+        "SaastalCard"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Saas_Grund_FREIGEGEBEN_v2.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p015",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Saas-Almagell / Mattmark",
+      "camping": "Camper-Abstellplatz Mattmark",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Naturnahe Hochgebirgsbasis direkt am Mattmark-Stausee mit wenig Platzkomfort, aber maximaler Nähe zu Touren und Stausee.",
+      "camp": {
+        "electricity": "kein Strom",
+        "water": "kein Wasseranschluss",
+        "service": "WC während Restaurantöffnung",
+        "public_transport": "PostAuto saisonal zum Stausee"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Mattmark-Runde als gut dosierbare gemeinsame Option; anspruchsvolle Hütten-/Passwege separat planen."
+      },
+      "tours": [
+        {
+          "name": "Mattmark-Rundgang",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Furggstalden–Almagelleralp",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Almagellerhütte",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Monte-Moro-Pass",
+          "level": "anspruchsvoll",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant Mattmark direkt an der Basis; Frühstück und Brotservice laut Saisonangebot.",
+      "bad": "Saas-Fee/Saas-Grund bieten Indoor-Alternativen; Bouldern in Saas-Grund.",
+      "highlights": [
+        "Mattmark-Rundgang",
+        "Almagelleralp",
+        "Almagellerhütte",
+        "Monte Moro"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Saas_Almagell_Mattmark_FREIGEGEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p016",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Simplonpass",
+      "camping": "Simplonpass",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Hochgelegene Passbasis mit direktem Berggefühl, kurzen Passwegen und ernsthafteren Touren; Wetter und Wind entscheiden stärker als im Tal.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Pass- und Talwege priorisieren; exponierte Touren nur ohne Sunny."
+      },
+      "tours": [
+        {
+          "name": "Simplonpass",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Hospiz",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Passlandschaft",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bei Nebel, Starkwind oder Gewitter ins Tal ausweichen.",
+      "highlights": [
+        "Simplonpass",
+        "Hospiz",
+        "Passlandschaft"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Simplonpass_MASTER_VALNONTEY.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p017",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Täsch / Zermatt",
+      "camping": "Täsch",
+      "height": "Bergregion",
+      "nights": "3–4",
+      "why": "Cleverer Matterhorn-Stützpunkt: echter Campingplatz, unmittelbarer Bahnanschluss nach Zermatt und eigenes ruhigeres Wanderrevier.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Zermatt",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "5-Seenweg",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Täschalp",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Täschhütte",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Zermatt bleibt auch bei schlechtem Wetter ohne Fahrzeug erreichbar.",
+      "highlights": [
+        "Zermatt",
+        "5-Seenweg",
+        "Täschalp",
+        "Täschhütte"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Taesch_Zermatt_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p018",
+      "region": "wallis",
+      "region_name": "Wallis",
+      "place": "Zinal",
+      "camping": "Parking Monferrier Sud",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Offizieller Stellplatz mitten im Dorf mit Basisversorgung, Gondel rund 100 m entfernt und direkten Wegen ins hochalpine Val de Zinal.",
+      "camp": {
+        "season": "01.05.–31.10.2026",
+        "electricity": "13 A · 4 Anschlüsse",
+        "service": "Frischwasser · Grauwasser · WC bei Gondelkassen",
+        "reservation": "nicht möglich"
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Petit Mountet",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Cabane du Mountet",
+          "level": "anspruchsvoll",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Sorebois",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val de Zinal / Navisence",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Talwanderung entlang der Navisence als flexible Reserve.",
+      "highlights": [
+        "Petit Mountet",
+        "Mountet",
+        "Sorebois",
+        "Val de Zinal"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Zinal_FREIGEGEBEN_v2.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p019",
+      "region": "tessin",
+      "region_name": "Tessin",
+      "place": "Airolo / Leventina",
+      "camping": "Airolo",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Mehr als Transit: Bahn, Seilbahn, Bedrettotal, Gotthardpass und starke Kulturreserven liegen eng beieinander.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Pesciüm",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bedrettotal",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Tremorgio",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Gotthard",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Käserei, Festungen und Gotthardgeschichte sind ungewöhnlich starke Reserven.",
+      "highlights": [
+        "Pesciüm",
+        "Bedrettotal",
+        "Tremorgio",
+        "Gotthard"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Airolo_Leventina_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p020",
+      "region": "tessin",
+      "region_name": "Tessin",
+      "place": "Avegno / Vallemaggia",
+      "camping": "Avegno",
+      "height": "Bergregion",
+      "nights": "3–4",
+      "why": "Strategische Basis zwischen Lago-Maggiore-Klima und den wilden Seitentälern des Vallemaggia; Fluss, Grotti, Bus und grosses Wanderwegnetz.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Flussnahe und kurze Talwege eignen sich gut als warme-Tage-Reserve."
+      },
+      "tours": [
+        {
+          "name": "Vallemaggia",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Foroglio",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val Calnègia",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Locarno",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Grotti und lokale Gastronomie in der Region; Details vor Anfahrt prüfen.",
+      "bad": "Locarno oder Museumstag als wetterfeste Alternative.",
+      "highlights": [
+        "Vallemaggia",
+        "Foroglio",
+        "Val Calnègia",
+        "Locarno"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Avegno_Vallemaggia_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p021",
+      "region": "tessin",
+      "region_name": "Tessin",
+      "place": "Cugnasco / Magadino",
+      "camping": "Cugnasco",
+      "height": "Bergregion",
+      "nights": "2–3",
+      "why": "Bewusst komfortable Tessin-Zentrale zwischen Bellinzona, Lago Maggiore, Weinbergen, Valle Morobbia und flachem Radkorridor.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Bellinzona",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Via delle Vigne",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Valle Morobbia",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lago Maggiore",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bellinzona und Pool-/Erholungstag als flexible Reserve.",
+      "highlights": [
+        "Bellinzona",
+        "Via delle Vigne",
+        "Valle Morobbia",
+        "Lago Maggiore"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Cugnasco_Magadino_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p022",
+      "region": "tessin",
+      "region_name": "Tessin",
+      "place": "Melano / Monte Generoso",
+      "camping": "Camping Monte Generoso",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "See-Camping am Luganersee mit Badezugang und Bahnanschluss zum Monte Generoso.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Luganersee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Monte Generoso",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Museen Mendrisio/Meride.",
+      "highlights": [
+        "Luganersee",
+        "Monte Generoso"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p023",
+      "region": "tessin",
+      "region_name": "Tessin",
+      "place": "Olivone / Bleniotal",
+      "camping": "TCS Camping Olivone",
+      "height": "890 m",
+      "nights": "2–4",
+      "why": "Komfortabler Einstieg ins obere Bleniotal mit südlichem Charakter, Pool und direktem Zugang zu Sosto, Lukmanier, Luzzone und Greina.",
+      "camp": {
+        "height": "890 m",
+        "surface": "Gras / Schotterrasen",
+        "capacity": "32 Stellplätze",
+        "service": "Sanitär · Entsorgung · WLAN-Zone · Shop · Wäscherei · Aussenpool",
+        "public_transport": "Bushaltestelle nahe · Ticino Ticket"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Sonnige und schattige Stellplätze; kurze Tal-/Riasc-Varianten als Sunny-Tage."
+      },
+      "tours": [
+        {
+          "name": "Sosto",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lukmanier",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Luzzone",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Greina",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Poli Bistro direkt auf dem Platz.",
+      "bad": "Pool, Bistro und regionale Ausflugsziele geben Reserven.",
+      "highlights": [
+        "Sosto",
+        "Lukmanier",
+        "Luzzone",
+        "Greina"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Olivone_Bleniotal_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p024",
+      "region": "tessin",
+      "region_name": "Tessin",
+      "place": "Sonogno / Verzascatal",
+      "camping": "Sonogno",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Einfacher offizieller Camperbereich direkt am Talschluss; Sentierone, Dorfkultur, Wasserfälle und Hüttentouren beginnen praktisch vor der Tür.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Tal- und Wasserwege sind die gemeinsamen Kernvarianten."
+      },
+      "tours": [
+        {
+          "name": "Sonogno",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Sentierone",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Wasserfälle",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Verzasca",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Dorfkultur und kurze Talwege statt langer Hüttentour.",
+      "highlights": [
+        "Sonogno",
+        "Sentierone",
+        "Wasserfälle",
+        "Verzasca"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Sonogno_Verzascatal_FREIGEGEBEN_v2.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p025",
+      "region": "suedbuenden",
+      "region_name": "Südbünden / Engadin",
+      "place": "Bergün / Albulatal",
+      "camping": "Bergün",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Historische Bündner Bergbasis zwischen Albula, Bahnlandschaft und Wanderwegen; eigenständig genug für mehrere Nächte.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Tal-/Waldwege als gemeinsame Reserve."
+      },
+      "tours": [
+        {
+          "name": "Albula",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bergün",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bahnkultur",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bahn- und Dorfkultur als wetterrobuste Alternative.",
+      "highlights": [
+        "Albula",
+        "Bergün",
+        "Bahnkultur"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Berguen_Albulatal_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p026",
+      "region": "suedbuenden",
+      "region_name": "Südbünden / Engadin",
+      "place": "Maloja / Silsersee",
+      "camping": "Maloja",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Engadiner Höhenbasis am Silsersee mit Wasser, Wald und Bergwegen; besonders stark für flexible kurze und mittlere Touren.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "See- und Waldwege zuerst; lange Hochwege separat."
+      },
+      "tours": [
+        {
+          "name": "Silsersee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Maloja",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Engadin",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Seeufer, Dorf und kurze Waldwege.",
+      "highlights": [
+        "Silsersee",
+        "Maloja",
+        "Engadin"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Maloja_Silsersee_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p027",
+      "region": "suedbuenden",
+      "region_name": "Südbünden / Engadin",
+      "place": "Morteratsch / Pontresina",
+      "camping": "Camping Morteratsch",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Referenz-Sonnenfenster im Oberengadin: Naturcamping, Gletscher, RhB, Diavolezza, Restaurant und Shop.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Morteratschgletscher",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Chamanna da Boval",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Diavolezza",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bellavita Pontresina; Sauna am Platz.",
+      "highlights": [
+        "Morteratschgletscher",
+        "Chamanna da Boval",
+        "Diavolezza"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p028",
+      "region": "suedbuenden",
+      "region_name": "Südbünden / Engadin",
+      "place": "Müstair / Val Müstair",
+      "camping": "Camping Muglin",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Vielseitige Ergänzung zu Zernez mit Biosfera-Touren, UNESCO-Kloster und Südtirol-Nähe.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Via dal Rom",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val Mora",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "UNESCO-Kloster",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Kultur und Sauna als Reserve.",
+      "highlights": [
+        "Via dal Rom",
+        "Val Mora",
+        "UNESCO-Kloster"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p029",
+      "region": "suedbuenden",
+      "region_name": "Südbünden / Engadin",
+      "place": "Scuol / Unterengadin",
+      "camping": "Scuol",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Gut ausgestattete Unterengadin-Basis mit Bergbahn, Bahn/PostAuto, historischen Dörfern und Wellness.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Tarasp",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bergbahnen",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bogn Engiadina",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bogn Engiadina als starke Reserve.",
+      "highlights": [
+        "Tarasp",
+        "Bergbahnen",
+        "Bogn Engiadina"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p030",
+      "region": "suedbuenden",
+      "region_name": "Südbünden / Engadin",
+      "place": "Zernez / Nationalpark",
+      "camping": "Camping Cul",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Wildnis-Basis am Inn mit Nationalparkzentrum, PostAuto und Zugang zu Cluozza, Ofenpass und Val Trupchun.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "ACHTUNG: Hunde dürfen nicht in den Schweizerischen Nationalpark mitgenommen werden – auch nicht an der Leine."
+      },
+      "tours": [
+        {
+          "name": "Schweizerischer Nationalpark",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Nationalparkzentrum",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val Trupchun",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Nationalparkzentrum als Regenreserve.",
+      "highlights": [
+        "Schweizerischer Nationalpark",
+        "Nationalparkzentrum",
+        "Val Trupchun"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p031",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Churwalden / Lenzerheide",
+      "camping": "Camping Pradafenz",
+      "height": "ca. 1'230 m",
+      "nights": "2–4",
+      "why": "Komfortabler Bergdorfplatz mit Wanderstart, PostAuto, Einkauf und Restaurant zu Fuss; gute Mischung aus Sunny-Kurzrunden und längeren Menschentagen.",
+      "camp": {
+        "height": "ca. 1'230 m",
+        "capacity": "145+ Stellplätze",
+        "service": "Sanitär · WLAN · Wasser/Abwasser · Hundedusche · Camperclean",
+        "public_transport": "PostAuto zu Fuss"
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "2,9-km-Oberwiti-Runde ist die beste Sunny-Option; Hundedusche am Platz."
+      },
+      "tours": [
+        {
+          "name": "Pradafenz–Oberwiti",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Polenweg nach Passugg",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Hängebrückenweg Val Meltger",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Familienweg Lenzerheide",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant Portal direkt neben dem Platz; weitere Dorfrestaurants zu Fuss.",
+      "bad": "Dorf/ÖV und kürzere Wege; Bergbahn nur freiwillige Reserve.",
+      "highlights": [
+        "Val Meltger",
+        "Polenweg",
+        "Heidsee",
+        "Pradaschier"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Churwalden_Lenzerheide_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p032",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Davos Glaris / Rinerhorn",
+      "camping": "RinerLodge",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Sehr gut vernetzter Talplatz mit Bahnanschluss, naher Einkehr, Rinerhorn und neuem Wasserkraft-Erlebnispfad.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Für Sunny lieber kurze Spina-Runde statt langem Rinerhorn-Abstieg."
+      },
+      "tours": [
+        {
+          "name": "Rinerhorn",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Wasserkraft-Erlebnispfad",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "historischer Zug nach Filisur",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant Blockhuus ca. 150 m / wenige Gehminuten.",
+      "bad": "Historischer Zug nach Filisur ist eine starke Mischwetter-Alternative.",
+      "highlights": [
+        "Rinerhorn",
+        "Wasserkraft-Erlebnispfad",
+        "historischer Zug nach Filisur"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Davos_Glaris_Rinerhorn_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p033",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Klosters / Madrisa / Schlappin",
+      "camping": "Campingstellplatz Madrisa",
+      "height": "ca. 1'124 m",
+      "nights": "2–4",
+      "why": "Kleiner offizieller Wander-Stellplatz mit Strom, Sanitär, Restaurant am Fahrzeug und direktem Zugang ins Schlappintal.",
+      "camp": {
+        "height": "ca. 1'124 m",
+        "capacity": "18 Stellplätze",
+        "warning": "keine Entsorgung und keine Reservation"
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Dorfrunde als Sunny-Variante; Schlappin an kühlem Tag."
+      },
+      "tours": [
+        {
+          "name": "Schlappinsee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Walsersiedlung",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Sunnibergbrücke",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Madrisa",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant praktisch am Stellplatz.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Schlappinsee",
+        "Walsersiedlung",
+        "Sunnibergbrücke",
+        "Madrisa"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Klosters_Madrisa_Schlappin_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p034",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Thusis / Viamala",
+      "camping": "TCS Camping Thusis Viamala",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Schattige und robuste Nordbünden-Basis mit kompletter Camperlogistik, Restaurant, ÖV und viel Kulturgeschichte.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Föhrenwald- und Talwege sind die besseren gemeinsamen Varianten."
+      },
+      "tours": [
+        {
+          "name": "Viamala",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Domleschg",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Veia Traversina",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Hinterrhein",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant direkt am Platz; Zeiten vor Anfahrt prüfen.",
+      "bad": "Domleschg und Kulturangebote machen Thusis wetterrobuster als hochalpine Plätze.",
+      "highlights": [
+        "Viamala",
+        "Domleschg",
+        "Veia Traversina",
+        "Hinterrhein"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Thusis_Viamala_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p035",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Alpencamping Nenzing",
+      "camping": "Alpencamping Nenzing",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Komfortbasis über dem Walgau mit markierten Wanderwegen, Hundedusche, Restaurant, Panoramapool und Spa.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundedusche und hundefreundliches Konzept; Gamp-/Talwege bei kühlerem Wetter."
+      },
+      "tours": [
+        {
+          "name": "Mengschlucht",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Nenzinger Himmel",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Panoramapool",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Spa",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant am Camping.",
+      "bad": "Pool, Spa und Restaurant tragen auch wechselhafte Tage.",
+      "highlights": [
+        "Mengschlucht",
+        "Nenzinger Himmel",
+        "Panoramapool",
+        "Spa"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Alpencamping_Nenzing_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p036",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Bezau / Bregenzerwald",
+      "camping": "Campingplatz Bezau",
+      "height": "ca. 650 m",
+      "nights": "2–4",
+      "why": "Preiswerte, hundefreundliche Talbasis an der Bregenzerach mit Flussweg, Dorf, Museum und Wälderbähnle ohne tägliche Fahrt.",
+      "camp": {
+        "height": "ca. 650 m",
+        "capacity": "45 Stellplätze",
+        "service": "Sanitär · Waschmaschine/Trockenraum · WLAN · Strom · Gasflaschentausch"
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundebadestelle am Platz und kurze Flusswege sind starke Sunny-Argumente."
+      },
+      "tours": [
+        {
+          "name": "Bregenzerach",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Wälderbähnle",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Museum Bezau",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Schönenbach",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Dorf-Gastronomie ca. 1 km; Lebensmittel ca. 500 m.",
+      "bad": "Museum und Museumsbahn funktionieren gut bei Mischwetter.",
+      "highlights": [
+        "Bregenzerach",
+        "Wälderbähnle",
+        "Museum Bezau",
+        "Schönenbach"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Bezau_Bregenzerwald_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p037",
+      "region": "nordbuenden",
+      "region_name": "Nordbünden / Vorarlberg",
+      "place": "Grosses Walsertal / Raggal",
+      "camping": "Raggal",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Kleine, ursprüngliche Biosphärenpark-Basis mit Panorama, Pool und grosser Naturauswahl in einer UNESCO-Modellregion.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Natur- und Waldwege priorisieren; Hochwege nur bei passender Witterung."
+      },
+      "tours": [
+        {
+          "name": "UNESCO-Biosphärenpark",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Marul",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Buchboden",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Walderlebnispfad",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Walderlebnispfad und biosphärenpark.haus als Mischwetterreserve.",
+      "highlights": [
+        "UNESCO-Biosphärenpark",
+        "Marul",
+        "Buchboden",
+        "Walderlebnispfad"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Grosses_Walsertal_Raggal_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p038",
+      "region": "trentino",
+      "region_name": "Trentino",
+      "place": "Canazei / Val di Fassa",
+      "camping": "Camping Marmolada",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Zentrale Dolomitenbasis mitten in Canazei; abends zu Fuss essen, morgens direkt Richtung Sella und Pordoi.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Sella",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Pordoi",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val Duron",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Sella",
+        "Pordoi",
+        "Val Duron"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p039",
+      "region": "trentino",
+      "region_name": "Trentino",
+      "place": "Molveno / Brentadolomiten",
+      "camping": "Molveno",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Voll ausgestattete See-Basis mit ernsthaften Brenta-Touren, kurzen schattigen Sunny-Reserven, Restaurant, Laden, Wellness und Bus.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "See und schattige Wasserwege sind die besten Sunny-Reserven."
+      },
+      "tours": [
+        {
+          "name": "Molvenosee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Brenta",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Pradel",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "La Montanara",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Andalo Life / AcquaIN sowie See, Dorf und Camping-Wellness.",
+      "highlights": [
+        "Molvenosee",
+        "Brenta",
+        "Pradel",
+        "La Montanara"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Molveno_Brentadolomiten_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p040",
+      "region": "trentino",
+      "region_name": "Trentino",
+      "place": "Pinzolo / Val Rendena",
+      "camping": "Camping Parco Adamello",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Hundefreundliche Adamello-Brenta-Basis mit direktem Talweg und Zugang ins Val Genova.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Cascate Nardis",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Val Genova",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Geopark/Carisolo; Caderzone Terme.",
+      "highlights": [
+        "Cascate Nardis",
+        "Val Genova"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p041",
+      "region": "trentino",
+      "region_name": "Trentino",
+      "place": "Val Canali / Pale di San Martino",
+      "camping": "Val Canali",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Wald- und Wiesenbasis unter den Pale di San Martino mit mehreren Touren ohne Bergbahn.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Malga Canali",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Rifugio Treviso",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Villa Welsperg",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Villa Welsperg und Waldsauna als Reserve.",
+      "highlights": [
+        "Malga Canali",
+        "Rifugio Treviso",
+        "Villa Welsperg"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p042",
+      "region": "trentino",
+      "region_name": "Trentino",
+      "place": "Val di Rabbi",
+      "camping": "Val di Rabbi",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Naturnahe Wohnmobilbasis im Nationalpark an der Schnittstelle zwischen Talweg, Ponte Sospeso, Therme und Saènt-Touren.",
+      "camp": {
+        "traffic": "27.06.–06.09.2026 obere Talstrasse 10–18 Uhr eingeschränkt; Stelviobus nutzen"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Valorz und leichtere Talwege sind die besten Sunny-Varianten; grosse Hochgebirgstage getrennt."
+      },
+      "tours": [
+        {
+          "name": "Saènt-Wasserfälle",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Ponte Sospeso",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Valorz",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Terme di Rabbi",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Terme di Rabbi und Molino Ruatti als Reserve.",
+      "highlights": [
+        "Saènt-Wasserfälle",
+        "Ponte Sospeso",
+        "Valorz",
+        "Terme di Rabbi"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Val_di_Rabbi_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p043",
+      "region": "trentino",
+      "region_name": "Trentino",
+      "place": "Val di Sole / Ossana",
+      "camping": "Camping Cevedale",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Schattige, dog-friendly und wetterflexible Trentino-Basis mit Flussweg, Dorf und mehreren Tälern.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Lago dei Caprioli",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Castello San Michele",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Valpiana",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Burg und Museen als Regenreserve.",
+      "highlights": [
+        "Lago dei Caprioli",
+        "Castello San Michele",
+        "Valpiana"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p044",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Alta Badia / San Cassiano",
+      "camping": "Camping Sass Dlacia",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Naturpark-Basecamp auf rund 1'680 m in Waldlage mit Restaurant und direkten Ausgangspunkten.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Fanes",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Valparola",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Capanna Alpina",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Wellness als Regenreserve.",
+      "highlights": [
+        "Fanes",
+        "Valparola",
+        "Capanna Alpina"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p045",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Cortina d'Ampezzo",
+      "camping": "Cortina",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Grosse Dolomitenbasis mit aussergewöhnlicher Tourenauswahl, Ortsversorgung und mehreren wetterabhängig kombinierbaren Bergachsen.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Wald-/Talwege als Sunny-Programm; grosse Dolomitentage getrennt."
+      },
+      "tours": [
+        {
+          "name": "Cortina",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Dolomiten",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Hüttenwege",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Cortina-Ortstag als flexible Reserve.",
+      "highlights": [
+        "Cortina",
+        "Dolomiten",
+        "Hüttenwege"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Cortina_Ampezzo_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p046",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Misurina / Cadini di Misurina",
+      "camping": "Misurina",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Hochgelegene Seen- und Dolomitenbasis unter den Cadini; stark bei stabilem Wetter, aber exponierter und kühler als Talplätze.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "See-Runde als klare gemeinsame Kurzvariante."
+      },
+      "tours": [
+        {
+          "name": "Misurinasee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Cadini",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Drei-Zinnen-Region",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bei Nebel/Schlechtwetter eher Talstandort vorziehen.",
+      "highlights": [
+        "Misurinasee",
+        "Cadini",
+        "Drei-Zinnen-Region"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Misurina_Cadini_di_Misurina_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p047",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Seiser Alm / Schlern",
+      "camping": "Seiser Alm",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Wald- und Hochalm-Basis mit Völser Weiher, Tuffalm und Schlern; viele Touren funktionieren ohne Bergbahn.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Weiher und Tuffalm sind die stärksten Sunny-Ziele; Hochplateau mittags schattenarm."
+      },
+      "tours": [
+        {
+          "name": "Völser Weiher–Tuffalm",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Tuffalm–Hofer Alpl",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Compatsch–Sanon–Icaro",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Rosszahnscharte",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Dolomiten-Bad/Sauna und kurze Weiher-Uferrunde.",
+      "highlights": [
+        "Völser Weiher",
+        "Tuffalm",
+        "Schlern",
+        "Seiser Alm"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Seiser_Alm_Schlern_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p048",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Sexten / Drei Zinnen",
+      "camping": "Sexten",
+      "height": "Bergregion",
+      "nights": "4–6",
+      "why": "Premiumbasis mit Naturzugang, fünf Restaurants, Dogsitting, Hundedusche und echtem Schlechtwetterprogramm.",
+      "camp": {
+        "public_transport": "Guest Pass für Busse/Regionalzüge; Hund eigenes Ticket, Leine und Maulkorb"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Sunny-Komfort aussergewöhnlich gut; Sextner Stein nur als separater stabiler Bergtag."
+      },
+      "tours": [
+        {
+          "name": "Fischleintal",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Nemesalm",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Sextner Stein",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Drei Zinnen",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Fünf Restaurants im/nahe dem Areal.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Fischleintal",
+        "Nemesalm",
+        "Sextner Stein",
+        "Drei Zinnen"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Sexten_Drei_Zinnen_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p049",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Toblacher See / Dobbiaco",
+      "camping": "Toblacher See",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Besonders hundegerechte, wetterflexible Dolomitenbasis: See, Wald, Bus, Shop und Restaurant liegen am Platz.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "See und Wald zuerst; Sarlkofel nur stabil, früh und ohne Sunny."
+      },
+      "tours": [
+        {
+          "name": "Toblacher See",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Sarlkofel",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Naturparks",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant und Shop am Platz.",
+      "bad": "See- und Talprogramm bleibt flexibel.",
+      "highlights": [
+        "Toblacher See",
+        "Sarlkofel",
+        "Naturparks"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p050",
+      "region": "dolomiten",
+      "region_name": "Dolomiten / Südtirol",
+      "place": "Val di Zoldo / Civetta",
+      "camping": "Val di Zoldo",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Alltagstaugliche Dolomitenbasis zwischen Pelmo und Civetta mit Wald-, Dorf- und Hüttentouren ohne Bergbahnzwang.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Dorf- und Waldtour sind klare Sunny-Tage; lange Hüttenwege eher Menschentage."
+      },
+      "tours": [
+        {
+          "name": "Borghi da scoprire",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Il bosco secolare",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Spiz Zuel",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Rifugio Sora 'l Sass",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lago Coldai",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Pelmo",
+        "Civetta",
+        "Lago Coldai",
+        "Spiz Zuel"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Val_di_Zoldo_Civetta_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p051",
+      "region": "tirol",
+      "region_name": "Tirol",
+      "place": "Fieberbrunn / Pillerseetal",
+      "camping": "Tirol Camp",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Komfortable Bergbasis direkt an der Bergbahn mit Restaurant, Mini-Markt, Pool und Sauna.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Pillersee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Wildseeloder",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Jakobskreuz",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Wellness als starke Regenreserve.",
+      "highlights": [
+        "Pillersee",
+        "Wildseeloder",
+        "Jakobskreuz"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p052",
+      "region": "tirol",
+      "region_name": "Tirol",
+      "place": "Kaunertal / Feichten",
+      "camping": "Feichten",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Ruhige Wiesenbasis mit Talwegen, Schlucht, Gepatschstausee und Hochalpintag.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Gepatschstausee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Verpeilschlucht",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Kaunertaler Gletscher",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Quellalpin als Regenreserve.",
+      "highlights": [
+        "Gepatschstausee",
+        "Verpeilschlucht",
+        "Kaunertaler Gletscher"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p053",
+      "region": "tirol",
+      "region_name": "Tirol",
+      "place": "Lienz / Tristachersee",
+      "camping": "Tristachersee",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Seltene Mischung aus Badesee, kurzer Hunderunde und grossen Lienzer Dolomiten; Restaurant nur wenige Gehminuten entfernt.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "See-Runde als Kernprogramm; grosse Kalkbergtouren separat."
+      },
+      "tours": [
+        {
+          "name": "Tristachersee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lienzer Dolomiten",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Lienz",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Parkhotel Tristachersee nur wenige Gehminuten am Seeufer; regionale Küche, Öffnung aktuell bestätigen.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Tristachersee",
+        "Lienzer Dolomiten",
+        "Lienz"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Lienz_Tristachersee_Dolomiten_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p054",
+      "region": "tirol",
+      "region_name": "Tirol",
+      "place": "Scharnitz / Karwendel",
+      "camping": "Scharnitz",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Bergbasis ohne Seilbahnzwang: Isar, Almen und drei Karwendeltäler beginnen praktisch im Dorf.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Kulturweg und flache Isarabschnitte sind Kernwege; Karwendel- und Gleirschklamm wegen Stegen, Nässe und Absturzkanten ohne Sunny."
+      },
+      "tours": [
+        {
+          "name": "Kulturweg",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Scharnitzer Alm",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Porta Claudia",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Karwendelschlucht",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Gleirschklamm",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Brunnsteinhütte",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Isarursprung",
+        "Hinterautal",
+        "Gleirschklamm",
+        "Karwendel"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Scharnitz_Karwendel_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p055",
+      "region": "tirol",
+      "region_name": "Tirol",
+      "place": "Umhausen / Stuibenfall / Ötztal",
+      "camping": "Umhausen",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Wasserfallbasis mit sauber trennbarem gemeinsamen und sportlichem Programm; Badesee, Ötzi-Dorf und Greifvogelpark ohne Fahrerei.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Wasserfallfuss und Talwege gemeinsam; Stufen/Klettersteig bleiben Menschentag."
+      },
+      "tours": [
+        {
+          "name": "Stuibenfall",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Badesee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Ötzi-Dorf",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Klettersteig",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Bei Regen Stufen und Klettersteig auslassen; Ötzi-Dorf nach Öffnung als Reserve.",
+      "highlights": [
+        "Stuibenfall",
+        "Badesee",
+        "Ötzi-Dorf",
+        "Klettersteig"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Umhausen_Stuibenfall_Oetztal_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p056",
+      "region": "tirol",
+      "region_name": "Tirol",
+      "place": "Walchsee / Kaiserwinkl",
+      "camping": "Camping Seemühle",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Kleiner grüner Naturplatz am See mit Hundestrand, Restaurant und Wandereinstieg.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Walchsee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Kaisergebirge",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Wandberg",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Grosse Touren nur trocken und gewitterfrei.",
+      "highlights": [
+        "Walchsee",
+        "Kaisergebirge",
+        "Wandberg"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p057",
+      "region": "slowenien",
+      "region_name": "Slowenien",
+      "place": "Bohinj",
+      "camping": "Camp Danica",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Vier-Sterne-Basis an der Sava Bohinjka mit Restaurant, Flussbad und Hundedusche.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Sava Bohinjka",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bohinjsee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Triglav-Region",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Sava Bohinjka",
+        "Bohinjsee",
+        "Triglav-Region"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p058",
+      "region": "slowenien",
+      "region_name": "Slowenien",
+      "place": "Bovec / Soča",
+      "camping": "Camp Liza",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Direkte Flussbasis mit Wasserfällen, Abenteuerreserve und regionaler Küche im Camp – einer der vielseitigsten Slowenienplätze.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Soča",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Virje",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Boka",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Rafting",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Gostilna Liza direkt im Areal; regionale Klassiker, Forelle und Wildgulasch.",
+      "bad": "Kurze Ortsrunde, Kluže von aussen und langer Restaurantabend.",
+      "highlights": [
+        "Soča",
+        "Virje",
+        "Boka",
+        "Rafting"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Bovec_Soca_Camp_Liza_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p059",
+      "region": "slowenien",
+      "region_name": "Slowenien",
+      "place": "Gozd Martuljek",
+      "camping": "Camp Špik",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Schattige Julische-Alpen-Basis mit Wasserfällen, Sava-Wegen und Špik-Panorama.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Martuljek-Wasserfälle",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Sava-Wege",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Špik",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Wellnessreserve im Alpine Resort.",
+      "highlights": [
+        "Martuljek-Wasserfälle",
+        "Sava-Wege",
+        "Špik"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p060",
+      "region": "slowenien",
+      "region_name": "Slowenien",
+      "place": "Kobarid / Kozjak",
+      "camping": "Camp Koren",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Bewaldeter Öko-Campingplatz über der Soča mit Kozjak, Napoleonbrücke, Museum und starker Dorfküche.",
+      "camp": {
+        "warning": "Hängebrücke am historischen Kozjak-Rundweg seit 19.08.2024 bis auf Weiteres gesperrt; aktuellen Wegstatus prüfen."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Soča-Ufer gemeinsam; enge Felsstufe am Kozjak für Sunny auslassen."
+      },
+      "tours": [
+        {
+          "name": "Kozjak",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Napoleonbrücke",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Kobarid Museum",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Soča",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Hiša Polonka ca. 1 km / 15–20 Gehminuten; Frika, Polenta, Štruklji und regionale Küche.",
+      "bad": "Kobarid Museum, Beinhaus und früher Restaurantabend.",
+      "highlights": [
+        "Kozjak",
+        "Napoleonbrücke",
+        "Kobarid Museum",
+        "Soča"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Kobarid_Kozjak_Camp_Koren_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p061",
+      "region": "slowenien",
+      "region_name": "Slowenien",
+      "place": "Rečica ob Savinji",
+      "camping": "Camp Menina",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Schattige Naturbasis mit Fluss, eigenem Badesee, Restaurant und Logartal als Königsetappe.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze schattige Abschnitte im Logartal und am Platz; steile Okrešelj-Reserve ohne Sunny."
+      },
+      "tours": [
+        {
+          "name": "Logartal",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Rinka",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Savinja",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Badesee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Gostilna Menina direkt im Camp; Forelle, Pizza und Peka.",
+      "bad": "Wellness/Restaurant und kurze Talvarianten.",
+      "highlights": [
+        "Logartal",
+        "Rinka",
+        "Savinja",
+        "Badesee"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Recica_ob_Savinji_Camp_Menina_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p062",
+      "region": "slowenien",
+      "region_name": "Slowenien",
+      "place": "Tolmin",
+      "camping": "Camp Gabrje",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Unparzellierte Naturwiese direkt an der Soča mit Bar, WLAN, hundefreundlicher Preisstruktur und Flusswegen ab Platz.",
+      "camp": {
+        "surface": "ebene Flussterrasse / Naturwiese",
+        "season": "April–Oktober",
+        "warning": "Javorca-Strasse 25.06.–27.09.2026 für Wohnmobile gesperrt"
+      },
+      "dog": {
+        "rating": "eingeschränkt",
+        "text": "Fluss- und Dorfrunden sind Kernwege; Klammen wegen Treppen und Enge ungeeignet."
+      },
+      "tours": [
+        {
+          "name": "Soča",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Tolminer Klammen",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Javorca",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Kolovrat",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Soča",
+        "Tolminer Klammen",
+        "Javorca",
+        "Kolovrat"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p063",
+      "region": "suedpolen",
+      "region_name": "Südpolen / Tatra",
+      "place": "Niedzica",
+      "camping": "Camping Polana Sosny",
+      "height": "483 m",
+      "nights": "3–5",
+      "why": "Ruhiger Platz am Dunajec mit Stausee, Burgen, Radweg und Restaurant in ungewöhnlich dichter Kombination.",
+      "camp": {
+        "height": "483 m",
+        "surface": "Wiese",
+        "capacity": "ca. 60 Touristenplätze",
+        "season": "ganzjährig"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Baumschatten statt erste Wasserreihe wählen; Leinenpflicht am Platz."
+      },
+      "tours": [
+        {
+          "name": "Dunajec",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Czorsztyn-Stausee",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Burgen",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Radweg",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restauracja Dwór direkt im Campingensemble.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Dunajec",
+        "Czorsztyn-Stausee",
+        "Burgen",
+        "Radweg"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Niedzica_Camping_Polana_Sosny_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p064",
+      "region": "suedpolen",
+      "region_name": "Südpolen / Tatra",
+      "place": "Szaflary",
+      "camping": "Camp Gorący Potok",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Podhale-Basis direkt bei der Therme mit flachen Fluss- und Waldwegen, Radachse und guter Distanz zu Nowy Targ und Zakopane.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Lokale Fluss- und Waldwege sind ideal; Thermalwasser und heisse Flächen für Hunde tabu."
+      },
+      "tours": [
+        {
+          "name": "Biały-Dunajec-Runde",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Szaflary & St.-Andreas",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Białka-Durchbruch",
+          "level": "leicht",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Therme",
+        "Biały Dunajec",
+        "Nowy Targ",
+        "Tatra-Radweg"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Szaflary_Camp_Goracy_Potok_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p065",
+      "region": "suedpolen",
+      "region_name": "Südpolen / Tatra",
+      "place": "Zakopane",
+      "camping": "Camping Pod Krokwia",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Bewaldete Tatra-Basis zwischen Stadt und Wald; Zentrum, Restaurants und mehrere Taleinstiege funktionieren ohne täglichen Campertransfer.",
+      "camp": {
+        "surface": "offene Grasflächen im Wald",
+        "season": "ganzjährig",
+        "capacity": "4 ha · offene Platzwahl"
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Am Platz erlaubt und angeleint; für Nationalpark-Touren jeweilige Hunderegel prüfen."
+      },
+      "tours": [
+        {
+          "name": "Wielka Krokiew",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Krupówki",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Tatra-Täler",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Zakopane",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Wielka Krokiew",
+        "Krupówki",
+        "Tatra-Täler",
+        "Zakopane"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Zakopane_Camping_Pod_Krokwia_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p066",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Aiguilles",
+      "camping": "Camping Le Gouret",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Ruhige französische Alpenbasis für Queyras-Tage mit Dorfanschluss und flexiblen Berg- und Talvarianten.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Talwege als gemeinsame Reserve."
+      },
+      "tours": [
+        {
+          "name": "Queyras",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Aiguilles",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Dorf-/Talprogramm statt Hochweg.",
+      "highlights": [
+        "Queyras",
+        "Aiguilles"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Aiguilles_Camping_Le_Gouret_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p067",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Bourg-Saint-Maurice",
+      "camping": "Huttopia",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Zentrale französische Alpenbasis mit Stadtversorgung und einer selten guten Kultur-/Schlechtwetterreserve.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Tarentaise",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Filature Arpin",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Bourg-Saint-Maurice",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Filature Arpin: historisches, weiterhin arbeitendes Textilhandwerk; Führung/Termine aktuell prüfen.",
+      "highlights": [
+        "Tarentaise",
+        "Filature Arpin",
+        "Bourg-Saint-Maurice"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Bourg_Saint_Maurice_Huttopia_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p068",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Chamonix",
+      "camping": "Camping Les Arolles",
+      "height": "Bergregion",
+      "nights": "3–4",
+      "why": "Kleine Terrassenbasis mitten in Chamonix: Zentrum, Bahn, Bus, Restaurants und Talwege zu Fuss.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [
+        {
+          "name": "Montenvers",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Mer de Glace",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Cascade du Dard",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Stadt/Mont(en)vers wetterflexibel.",
+      "highlights": [
+        "Montenvers",
+        "Mer de Glace",
+        "Cascade du Dard"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": null,
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p069",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Valloire",
+      "camping": "Camping Sainte-Thècle",
+      "height": "1'430 m",
+      "nights": "3–5",
+      "why": "Kommunaler Bergdorfplatz auf 1'430 m mit Schattenparzellen, Dorf in fünf Gehminuten, Kunst und Restaurant zu Fuss.",
+      "camp": {
+        "height": "1'430 m",
+        "capacity": "78 Touristenplätze",
+        "season": "29.05.–31.10.2026",
+        "electricity": "8 A"
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Hunde erlaubt; ruhige Schattenparzelle schriftlich bestätigen."
+      },
+      "tours": [
+        {
+          "name": "Galibier",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Poingt Ravier",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Cerces",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Strohskulpturen",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "La Grange ca. 7–10 Gehminuten; Savoyer Fondue, Hirsch, Crêpes/Galettes; schattige Terrasse.",
+      "bad": "Dorf und Open-Air-Kunst als kurze Reserve.",
+      "highlights": [
+        "Galibier",
+        "Poingt Ravier",
+        "Cerces",
+        "Strohskulpturen"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Valloire_Camping_Sainte_Thecle_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p070",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Vallouise",
+      "camping": "Huttopia Vallouise",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Ebener Écrins-Talplatz mit Pool und Dorf zu Fuss; klare Trennung zwischen Sunny-Wegen und hundefreier Kernzone.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Sunny-Wege ausserhalb der hundefreien Kernzone gezielt wählen."
+      },
+      "tours": [
+        {
+          "name": "Vallouise",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Écrins",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Talwege",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Dorf, Pool und kurze Talwege.",
+      "highlights": [
+        "Vallouise",
+        "Écrins",
+        "Talwege"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Vallouise_Huttopia_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p071",
+      "region": "pyrenaeen",
+      "region_name": "Pyrenäen",
+      "place": "Luz-Saint-Sauveur",
+      "camping": "Camping Le Bastan",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Zentrale Pyrenäenbasis für mehrere Täler und Passachsen; eignet sich besonders als flexibler Wechselstandort.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "gut",
+        "text": "Kurze Talwege als gemeinsames Programm; Schutzgebietsregeln je Tour prüfen."
+      },
+      "tours": [
+        {
+          "name": "Luz-Saint-Sauveur",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Pyrenäentäler",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Ort und Talachsen statt Hochgebirge.",
+      "highlights": [
+        "Luz-Saint-Sauveur",
+        "Pyrenäentäler"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "12_Pyrenaeen_01_Luz-Saint-Sauveur_Le-Bastan_MASTER-VALNONTEY.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p072",
+      "region": "pyrenaeen",
+      "region_name": "Pyrenäen",
+      "place": "Cauterets",
+      "camping": "Camping La Prairie",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Pyrenäenbasis mit starkem Tal- und Wasserfallprofil sowie Zugang zu hochalpinen Touren; Wetter entscheidet über die Tageswahl.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Tal-/Wasserwege je Schutzregel prüfen; Hochgebirgstage getrennt."
+      },
+      "tours": [
+        {
+          "name": "Cauterets",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Wasserfälle",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Pyrenäen",
+          "level": "siehe Master",
+          "detail": "Tourendetails werden aus dem freigegebenen Master nachgezogen.",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Ort und kurze Wasserfall-/Talvarianten.",
+      "highlights": [
+        "Cauterets",
+        "Wasserfälle",
+        "Pyrenäen"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "12_Pyrenaeen_02_Cauterets_Camping-La-Prairie_MASTER-VALNONTEY.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "p073",
+      "region": "pyrenaeen",
+      "region_name": "Pyrenäen",
+      "place": "Torla-Ordesa",
+      "camping": "Camping Río Ara",
+      "height": "Bergregion",
+      "nights": "3–5",
+      "why": "Baumbestandene Basis am Tor des Ordesa-Nationalparks; Busparkplatz zu Fuss und Wanderweg Richtung Nationalpark direkt beim Camping.",
+      "camp": {
+        "season": "05.06.–13.10.2026",
+        "service": "Bar/Cafeteria · kleiner Laden · Brot · WLAN · Waschmaschinen",
+        "dog": "gratis · angeleint"
+      },
+      "dog": {
+        "rating": "mittel",
+        "text": "Bujaruelo ist besonders wichtig als Hundealternative; Nationalparkregeln für Ordesa strikt beachten."
+      },
+      "tours": [
+        {
+          "name": "Torla–Ordesa-Zugang",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Valle de Bujaruelo",
+          "level": "leicht–mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Pradera–Cascadas",
+          "level": "mittel",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        },
+        {
+          "name": "Cola de Caballo",
+          "level": "mittel/lang",
+          "detail": "Details im freigegebenen Master",
+          "sunny": "individuell prüfen"
+        }
+      ],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [
+        "Ordesa",
+        "Bujaruelo",
+        "Río Ara",
+        "Cola de Caballo"
+      ],
+      "images": [],
+      "links": [],
+      "source_pdf": "12_Pyrenaeen_03_Torla-Ordesa_Camping-Rio-Ara_MASTER-VALNONTEY.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "new_samoens",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Samoëns",
+      "camping": "Camping Le Giffre",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Freigegebener Sonnenfenster-Standort.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Samoens_Camping_Le_Giffre_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "new_grandbornand",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Le Grand-Bornand",
+      "camping": "Camping L'Escale",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Freigegebener Sonnenfenster-Standort.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Le_Grand_Bornand_Camping_L_Escale_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "new_barcelonnette",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Barcelonnette",
+      "camping": "Camping Le Tampico",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Freigegebener Sonnenfenster-Standort.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Barcelonnette_Camping_Le_Tampico_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "new_castellane",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Castellane",
+      "camping": "Camping Frédéric Mistral",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Freigegebener Sonnenfenster-Standort.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Castellane_Camping_Frederic_Mistral_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
+    },
+    {
+      "id": "new_colmars",
+      "region": "fralpen",
+      "region_name": "Französische Alpen",
+      "place": "Colmars-les-Alpes",
+      "camping": "Camping Les Pommiers",
+      "height": "Bergregion",
+      "nights": "2–4",
+      "why": "Freigegebener Sonnenfenster-Standort.",
+      "camp": {
+        "Stand": "Freigegebener Projektplatz – Detailfelder werden aus dem Master weiter ergänzt."
+      },
+      "dog": {
+        "rating": "sehr gut",
+        "text": "Hundefreundlichkeit und konkrete Sunny-Touren werden aus dem freigegebenen Master weiter verdichtet."
+      },
+      "tours": [],
+      "food": "Restaurant-/Einkehrdetails sind im Projektbestand vorhanden bzw. werden beim nächsten Detailausbau ergänzt.",
+      "bad": "Schlechtwetterreserve wird beim regionalen Detailausbau ergänzt.",
+      "highlights": [],
+      "images": [],
+      "links": [],
+      "source_pdf": "Sonnenfenster_Colmars_les_Alpes_Camping_Les_Pommiers_FREIGEGEBEN.pdf",
+      "quality": "Masterdaten integriert · Bilder/Feindetails im Ausbau",
+      "master_complete": false
     }
-  ]
+  ],
+  "synced_at": "2026-08-24"
 }

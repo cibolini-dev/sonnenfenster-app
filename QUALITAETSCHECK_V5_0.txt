@@ -1,0 +1,8 @@
+OK: 78 Plätze
+OK: 12 Regionen
+OK: 8 V4.2-Masterplätze
+OK: alle Plätze Region
+OK: alle Plätze Detailtext
+OK: JavaScript Syntax
+
+V5.0 ist bewusst ein Gesamtbestand-Test: alle 78 Plätze sind auswählbar. Die 8 Aostatal/Nordpiemont-Plätze entsprechen bereits vollständig dem V4.2-Master; bei den übrigen Plätzen sind Masterdaten integriert, Bilder und Feindetails werden regionenweise nachgezogen.
