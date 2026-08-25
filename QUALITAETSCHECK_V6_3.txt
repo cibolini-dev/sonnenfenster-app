@@ -1,0 +1,63 @@
+SONNENFENSTER APP V6.3 · INTERNE QUALITÄTSKONTROLLE
+Stand: laufende Qualitätsüberarbeitung – NICHT FREIGEGEBEN
+Plätze gesamt: 101 · Regionen: 14
+Platzseiten mit verbotenen/verdächtigen Arbeitsmarkern: 50
+
+AKTUELL ABGESCHLOSSENER BLOCK: SÜDBÜNDEN – MASTERÜBERNAHME TEIL 1
+- Morteratsch / Pontresina: Masterinhalt, Touren, Annette/Roman/Sunny-Logik, Essen, Schlechtwetter und PDF eingebaut.
+- Müstair / Val Müstair: Preise 2026, Campingdetails, Touren, Sunny-Regeln, UNESCO/Schlechtwetter und PDF eingebaut.
+- Scuol / Unterengadin: Campingdetails, Sperrhinweise, Touren, Sunny, Bogn Engiadina und PDF eingebaut.
+- Zernez / Nationalpark: Campingdetails, Touren und prominentes absolutes Hundeverbot im Nationalpark eingebaut.
+- data.js aus aktuellem data.json neu erzeugt; alte Arbeitsmarker-Duplikate dort entfernt.
+
+VERBLEIBENDE PLÄTZE MIT ARBEITSMARKERN:
+- p025 · Bergün / Albulatal: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p026 · Maloja / Silsersee: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p031 · Churwalden / Lenzerheide: Details im freigegebenen Master
+- p032 · Davos Glaris / Rinerhorn: Sunny-Logik, siehe Master, weiter ergänzt
+- p033 · Klosters / Madrisa / Schlappin: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master
+- p034 · Thusis / Viamala: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master, weiter ergänzt
+- p035 · Alpencamping Nenzing: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master, weiter ergänzt
+- p036 · Bezau / Bregenzerwald: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master
+- p037 · Grosses Walsertal / Raggal: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p038 · Canazei / Val di Fassa: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p039 · Molveno / Brentadolomiten: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p040 · Pinzolo / Val Rendena: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p041 · Val Canali / Pale di San Martino: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p042 · Val di Rabbi: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master
+- p043 · Val di Sole / Ossana: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p044 · Alta Badia / San Cassiano: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p045 · Cortina d'Ampezzo: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p046 · Misurina / Cadini di Misurina: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p047 · Seiser Alm / Schlern: Details im freigegebenen Master, Projektbestand, nächsten Detailausbau, weiter ergänzt
+- p048 · Sexten / Drei Zinnen: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master
+- p049 · Toblacher See / Dobbiaco: Sunny-Logik, siehe Master, weiter ergänzt
+- p050 · Val di Zoldo / Civetta: Details im freigegebenen Master, Projektbestand, nächsten Detailausbau, weiter ergänzt
+- p051 · Fieberbrunn / Pillerseetal: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p052 · Kaunertal / Feichten: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p053 · Lienz / Tristachersee: Sunny-Logik, siehe Master, weiter ergänzt
+- p054 · Scharnitz / Karwendel: Details im freigegebenen Master, Projektbestand, nächsten Detailausbau, weiter ergänzt
+- p055 · Umhausen / Stuibenfall / Ötztal: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p056 · Walchsee / Kaiserwinkl: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p057 · Bohinj: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p058 · Bovec / Soča: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master, weiter ergänzt, weiter verdichtet
+- p059 · Gozd Martuljek: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p060 · Kobarid / Kozjak: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master
+- p061 · Rečica ob Savinji: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master, weiter ergänzt
+- p062 · Tolmin: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master
+- p063 · Niedzica: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master
+- p064 · Szaflary: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p065 · Zakopane: Projektbestand, Tourendetails werden aus dem freigegebenen Master nachgezogen, nächsten Detailausbau, siehe Master
+- p066 · Aiguilles: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p067 · Bourg-Saint-Maurice: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p068 · Chamonix: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- p069 · Valloire: Tourendetails werden aus dem freigegebenen Master nachgezogen, siehe Master
+- p070 · Vallouise: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p071 · Luz-Saint-Sauveur: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p072 · Cauterets: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt
+- p073 · Torla-Ordesa: Details im freigegebenen Master, Projektbestand, nächsten Detailausbau
+- new_samoens · Samoëns: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- new_grandbornand · Le Grand-Bornand: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- new_barcelonnette · Barcelonnette: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- new_castellane · Castellane: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet
+- new_colmars · Colmars-les-Alpes: Projektbestand, Sunny-Logik, nächsten Detailausbau, siehe Master, weiter ergänzt, weiter verdichtet

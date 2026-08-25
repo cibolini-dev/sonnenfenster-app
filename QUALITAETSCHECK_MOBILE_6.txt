@@ -1,0 +1,25 @@
+PROJEKT SONNENFENSTER · V6.3 MOBILE 6 · PRÜFSTAND 25.08.2026
+
+STARTSICHERHEIT
+- Daten werden lokal über data.js vor app.js geladen; kein fetch-Zwang für den Start.
+- JavaScript-Syntax data.js und app.js geprüft.
+- Service-Worker-Cache auf sf-v6.3-mobile-6 angehoben, damit alte fehlerhafte App-Dateien nicht festgehalten werden.
+
+BESTAND
+- 14 Regionen
+- 101 Plätze
+- 101 eindeutige Platz-IDs
+- alle 101 Plätze mit why, camp, dog, tours, food, bad, links und Koordinaten
+- keine bekannten Entwickler-/Placeholdertexte
+
+BILDER
+- alle lokal referenzierten Dateien vorhanden
+- die drei bisher bildlosen Datensätze Ax-les-Thermes, Font-Romeu und Mürzzuschlag erhielten reale Originalbilder aus ihren freigegebenen Projekt-PDFs
+
+KARTEN
+- Übersicht und Regionskarten verwenden reale OpenStreetMap-Grundkarten mit eigenen Markern.
+- Randmarker-Logik bleibt aus MOBILE 4/5 erhalten.
+- Abendkandidat-Karten wurden nicht blind übernommen.
+
+STATUS
+Arbeitsstand, noch keine Endfreigabe. Weitere visuelle Handyprüfung und inhaltliche Einzelkontrolle läuft.

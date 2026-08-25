@@ -1,0 +1,28 @@
+SONNENFENSTER V6.3 – MOBILE 4 ARBEITSSTAND
+
+Bestand
+- 14 Regionen
+- 101 Plätze
+- 101/101 Plätze mit mindestens einem direkten Link
+- 101/101 Plätze mit Touren
+- 101/101 Plätze mit vorhandenem PDF-Verweis
+- 62 Platzkoordinaten als exact, 39 bewusst nur orientation gekennzeichnet
+
+Kartenkorrektur
+- 13 schematische/fiktive *_aktuell.svg-Karten aus dem Paket entfernt.
+- Diese SVGs waren keine geographischen Karten und dürfen nicht als Regionskarten erscheinen.
+- Die App verwendet für Übersicht, Region und Standort die reale OpenStreetMap-Kartenbasis.
+- Marker werden aus den im Datenbestand hinterlegten Koordinaten berechnet.
+- Auf dem Handy werden Markernamen in der Karte ausgeblendet und darunter als lesbare Legende gezeigt.
+- Marker am Kartenrand werden nach innen ausgerichtet, damit sie nicht abgeschnitten werden.
+- Bei orientation-Koordinaten wird ausdrücklich keine exakte Zufahrt behauptet; Google Maps sucht dann nach Campingname + Ort.
+
+Inhaltskontrolle
+- Keine bekannten Entwickler-/Platzhaltertexte im Datenbestand gefunden.
+- Keine ungültig formatierten direkten Links gefunden.
+- Keine fehlenden referenzierten Projekt-PDFs gefunden.
+- 3 Plätze besitzen derzeit keine Bildgalerie und fallen sauber auf den neutralen Regionskopf zurück; keine Fantasie-/Ersatzbilder erzeugt.
+
+Noch offen vor endgültiger Freigabe
+- Visuelle Prüfung auf dem realen Smartphone nach Deployment.
+- Live-Erreichbarkeit externer Links und externer Bilder kann erst online vollständig geprüft werden.

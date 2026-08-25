@@ -1,0 +1,16 @@
+PROJEKT SONNENFENSTER · V6.4 · ARBEITSSTAND 25.08.2026
+
+BASIS
+- Weiterentwicklung aus V6.3 MOBILE 6.
+- 14 Regionen / 101 Plätze.
+- Startdaten werden lokal über data.js vor app.js geladen; kein Netzwerkzugriff zum App-Start erforderlich.
+- Service-Worker-Cache auf eigene V6.4-Kennung angehoben, damit ältere fehlerhafte Dateien nicht festgehalten werden.
+- Benutzeroberfläche, Manifest und Teilen-Text auf V6.4 umgestellt.
+
+KARTEN / MOBILE
+- Korrigierte MOBILE-6-Kartenlogik bleibt Basis.
+- Abendkandidat-Karten werden nicht pauschal übernommen.
+- Mobile-First bleibt Qualitätsmassstab.
+
+STATUS
+Arbeitsstand, keine Endfreigabe. Die inhaltliche Einzelkontrolle und visuelle Handyprüfung laufen weiter.

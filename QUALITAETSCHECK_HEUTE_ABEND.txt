@@ -1,0 +1,15 @@
+SONNENFENSTER V6.3 – MERGE HEUTE ABEND
+
+Plätze: 101 · Regionen: 14
+Gezielt übernommene Feldverbesserungen: 375
+Betroffene Plätze: 43
+
+Übernommen: bad 34, camp 38, camping 22, coord_quality 37, dog 33, food 34, height 28, lat 34, links 43, lon 34, tours 38
+
+Karten: MOBILE_TESTBEREIT-Bestand bewusst beibehalten; Abendkandidat-Karten NICHT überschrieben.
+Mobile Navigation: beibehalten.
+PWA-Installationsbutton: ergänzt.
+Marker-Randbehandlung: ergänzt.
+Generische/Platzhalterfelder: soweit Abendkandidat konkrete Daten enthält, ersetzt.
+
+Noch nicht als endgültige Freigabe bezeichnet: visuelle Handyprüfung und Live-Link-Prüfung nach Deployment bleiben erforderlich.

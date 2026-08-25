@@ -1,0 +1,13 @@
+SONNENFENSTER APP V6.0 – BASISVERSION
+
+- Lokaler Doppelklick-Test ohne lokalen Webserver möglich (Daten via data.js eingebettet).
+- 83 Plätze / 12 Regionen.
+- V5.2-Bestand vollständig übernommen.
+- Ax-les-Thermes und Font-Romeu ergänzt.
+- Direkte Links in Detailseiten unterstützt.
+- Bergbahn-/Fahrplanabschnitt technisch unterstützt.
+- Projekt-PDFs werden verlinkt, sofern im Paket vorhanden.
+- Wetterabfrage bleibt online und benötigt Internet.
+- Service Worker wird lokal bewusst nicht registriert.
+
+Hinweis: Die inhaltliche V6-Aufarbeitung aller 83 Plätze (Preise 2 Erwachsene + Hund + 6-m-Camper, Taxen, Spezialitäten, Bergbahnen/Fahrpläne, Wetterlogik) ist ein fortlaufender Prüfprozess. Die App-Basis selbst ist lokal testbar.
