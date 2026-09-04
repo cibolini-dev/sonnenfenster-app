@@ -1,0 +1,22 @@
+SONNENFENSTER V6.6 – UPLOAD-REIHENFOLGE FÜR GITHUB
+
+Diese ZIP-Datei ist bereits in der endgültigen Ordnerstruktur vorbereitet. Nichts umbenennen und keine Dateien verschieben.
+
+1. ZIP auf dem Laptop entpacken.
+2. Im GitHub-Repository Sonnenfenster das Hauptverzeichnis öffnen.
+3. Zuerst die Dateien aus dem Hauptverzeichnis hochladen:
+   - index.html
+   - manifest.webmanifest
+   - service-worker.js
+   - icon-192.png
+   - icon-512.png
+   - UPLOAD_REIHENFOLGE.txt
+4. Danach den Ordner assets öffnen/anlegen.
+5. Darin photos öffnen/anlegen.
+6. Darin den Unterordner 01 hochladen. Er enthält weniger als 100 Elemente.
+7. Nach jedem Upload den Commit abschliessen.
+8. Danach GitHub Pages öffnen bzw. die bestehende Sonnenfenster-Seite neu laden.
+9. In Chrome einmal hart neu laden bzw. die installierte App vollständig schliessen und neu öffnen, damit der neue Service Worker übernommen wird.
+10. Kontrollieren: Startseite zeigt V6.6, 17 Regionen und 109 Plätze; Logo sichtbar; Region öffnen; Platz öffnen; X-Schliessen; Suche und Filter testen.
+
+WICHTIG: Die Verzeichnisnamen assets/photos/01 exakt beibehalten.
